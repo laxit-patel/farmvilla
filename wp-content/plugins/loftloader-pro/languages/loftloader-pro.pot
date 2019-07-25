@@ -1,0 +1,849 @@
+# Copyright (C) 2019 LoftLoader Pro
+# This file is distributed under the same license as the LoftLoader Pro package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LoftLoader Pro 1.2.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/loftloader-pro\n"
+"POT-Creation-Date: 2019-01-08 21:08+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Suihai <cain@loftocean.com>\n"
+"Language-Team: Loft Ocean <cain@loftocean.com>\n"
+"X-Generator: Poedit 2.2\n"
+
+#: inc/any-page/class-any-page-metabox.php:20
+msgid "LoftLoader Pro Any Page Shortcode"
+msgstr ""
+
+#: inc/any-page/class-any-page-metabox.php:41
+msgid "Display the preloader on the page only once during a visitor session"
+msgstr ""
+
+#: inc/class-back-compat.php:33
+msgid ""
+"Oops! Your site environment does not seem to meet the requirements for using "
+"LoftLoader Pro."
+msgstr ""
+
+#: inc/class-back-compat.php:40
+msgid ""
+"- Your WordPress version is too old. %1$sPlease update to WordPress %3$s or "
+"higher%2$s."
+msgstr ""
+
+#: inc/class-back-compat.php:49
+msgid ""
+"- Your server PHP version is too old. %1$sPlease update to PHP %3$s or higher"
+"%2$s."
+msgstr ""
+
+#: inc/class-back-compat.php:55
+msgid ""
+"The latest version of PHP is 7.2. The minimum PHP version required for "
+"LoftLoader Pro is PHP %s. And WordPress recommends using PHP 7+."
+msgstr ""
+
+#: inc/class-back-compat.php:61
+msgid ""
+"PHP versions lower than 7.0 have reached the official end of their life "
+"cycle and may expose your site to security vulnerabilities. We strongly "
+"recommend that you no longer use the old PHP version, please always update "
+"to the latest version."
+msgstr ""
+
+#: inc/class-back-compat.php:76
+msgid "LoftLoader Pro "
+msgstr ""
+
+#: inc/class-back-compat.php:77
+msgid "YOUR PHP/WP IS OUTDATED"
+msgstr ""
+
+#: inc/class-privacy.php:17
+msgid ""
+"When the \"Once Per Session\" feature of LoftLoader Pro is enabled on your "
+"site, as the site administrator, you may need to include the following "
+"information into your Privacy Policy for GDPR complaint:\n"
+"\n"
+"%1$sWhat personal data we collect and why we collect it%2$s\n"
+"\n"
+"%3$sCookies%4$s\n"
+"\n"
+"The loading screen of this site is enabled \"Play Once Per Session\" "
+"feature. When you visit our site, the once_per_session_visited cookies will "
+"be saved in the browser on your computer. This cookie includes no personal "
+"data and simply indicates if you have visited this site.\n"
+"\n"
+"These cookies are \"session\" cookies, and they will be deleted as soon as "
+"you close your web browser. So you will only see the loading screen once "
+"during the visit session.\n"
+"\n"
+"These cookies begin with \"loftloader_pro\" and end with "
+"\"_once_per_session_visited\", as in the following examples:\n"
+"%5$s\n"
+"%7$s\n"
+"\"loftloader_pro_once_per_session_visited\"\n"
+"%8$s\n"
+"%7$s\n"
+"\"loftloader_pro_homepage_once_per_session_visited\"\n"
+"%8$s\n"
+"%6$s\n"
+"\n"
+"And if the site is using LoftLoader Pro's \"Any Page Extension\" feature (to "
+"creating different loading screens for different pages), if the site "
+"administrator also enabled the \"Once Per Session\" feature on that page, "
+"then the page id cookies will be saved in your browser too. This cookie "
+"includes no personal data and simply indicates if you have visited this "
+"page. The page id cookies are also \"session\" cookies, and they will be "
+"deleted as soon as you close your web browser. These cookies are those "
+"beginning with \"loftloader_pro_any_page_id_\". \n"
+"\n"
+"To find out more about cookies, including how to see what cookies have been "
+"set and how to block and delete cookies, please visit %9$shttps://www."
+"aboutcookies.org/%10$s."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: inc/class-privacy.php:55 inc/customize/class-customize-manager.php:55
+#: loftloader-pro.php:117
+msgid "LoftLoader Pro"
+msgstr ""
+
+#: inc/customize/class-customize-custom.php:89
+#: inc/customize/class-customize-custom.php:115
+msgid "Setting"
+msgstr ""
+
+#: inc/customize/class-customize-custom.php:105
+msgid "Press return or enter to open this section"
+msgstr ""
+
+#: inc/customize/class-customize-custom.php:112
+#: inc/customize/configs/progress.php:211
+msgid "Back"
+msgstr ""
+
+#: inc/customize/class-customize-custom.php:141
+#: inc/customize/configs/advanced.php:33
+msgid "Generate"
+msgstr ""
+
+#: inc/customize/class-customize-custom.php:155
+#: inc/customize/class-customize-custom.php:178
+msgid "Posts"
+msgstr ""
+
+#: inc/customize/class-customize-custom.php:173
+msgid "Pages"
+msgstr ""
+
+#: inc/customize/class-customize-custom.php:358
+msgid "More info"
+msgstr ""
+
+#: inc/customize/configs/advanced.php:14
+msgid "Advanced"
+msgstr ""
+
+#: inc/customize/configs/advanced.php:44
+msgid "Save customize styles"
+msgstr ""
+
+#: inc/customize/configs/advanced.php:47
+msgid "Please make sure your WordPress has write permission to modify files."
+msgstr ""
+
+#: inc/customize/configs/advanced.php:49
+msgid "As inline styles in <head>"
+msgstr ""
+
+#: inc/customize/configs/advanced.php:50
+msgid "As an external .css file"
+msgstr ""
+
+#: inc/customize/configs/advanced.php:57
+msgid "Enable Any Page Extension"
+msgstr ""
+
+#: inc/customize/configs/advanced.php:63
+msgid "Generate LoftLoader Shortcode"
+msgstr ""
+
+#: inc/customize/configs/background.php:15
+msgid "Background"
+msgstr ""
+
+#: inc/customize/configs/background.php:118
+msgid "Fill Type"
+msgstr ""
+
+#: inc/customize/configs/background.php:122
+msgid "Solid"
+msgstr ""
+
+#: inc/customize/configs/background.php:123
+msgid "Image"
+msgstr ""
+
+#: inc/customize/configs/background.php:124
+#: inc/customize/configs/loader.php:432 inc/customize/configs/more.php:191
+#: inc/customize/configs/progress.php:141
+msgid "None"
+msgstr ""
+
+#: inc/customize/configs/background.php:128
+#: inc/customize/configs/loader.php:257 inc/customize/configs/message.php:165
+#: inc/customize/configs/progress.php:215
+msgid "Pick Color"
+msgstr ""
+
+#: inc/customize/configs/background.php:134
+msgid "Opacity"
+msgstr ""
+
+#: inc/customize/configs/background.php:147
+msgid "Ending Animation"
+msgstr ""
+
+#: inc/customize/configs/background.php:148
+msgid "Hover on preview area to see the result."
+msgstr ""
+
+#: inc/customize/configs/background.php:152
+msgid "Fade"
+msgstr ""
+
+#: inc/customize/configs/background.php:153
+msgid "Slide Left & Right"
+msgstr ""
+
+#: inc/customize/configs/background.php:154
+msgid "Slide to Left"
+msgstr ""
+
+#: inc/customize/configs/background.php:155
+msgid "Slide to Right"
+msgstr ""
+
+#: inc/customize/configs/background.php:156 inc/customize/configs/more.php:193
+#: inc/customize/configs/more.php:203
+msgid "Slide Up"
+msgstr ""
+
+#: inc/customize/configs/background.php:157
+msgid "Slide Up & Down"
+msgstr ""
+
+#: inc/customize/configs/background.php:158
+msgid "Shrink & Fade"
+msgstr ""
+
+#: inc/customize/configs/background.php:159
+msgid "Split & Reveal Vertically"
+msgstr ""
+
+#: inc/customize/configs/background.php:160
+msgid "Split & Reveal Horizontally"
+msgstr ""
+
+#: inc/customize/configs/background.php:161
+msgid "Split Diagonally - Vertically"
+msgstr ""
+
+#: inc/customize/configs/background.php:162
+msgid "Split Diagonally - Horizontally"
+msgstr ""
+
+#: inc/customize/configs/background.php:167
+#: inc/customize/configs/loader.php:324
+msgid "Upload Image"
+msgstr ""
+
+#: inc/customize/configs/background.php:174
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/customize/configs/background.php:175
+msgid ""
+"Please choose \"No Repeat\" if use a full size background image; choose "
+"\"Tile\" if use a small repeating pattern."
+msgstr ""
+
+#: inc/customize/configs/background.php:180
+msgid "No Repeat"
+msgstr ""
+
+#: inc/customize/configs/background.php:181
+msgid "Tile"
+msgstr ""
+
+#: inc/customize/configs/background.php:186
+msgid "Background Size"
+msgstr ""
+
+#: inc/customize/configs/background.php:191
+msgid "Cover"
+msgstr ""
+
+#: inc/customize/configs/background.php:192
+msgid "Contain"
+msgstr ""
+
+#: inc/customize/configs/background.php:198
+msgid "Enable Gradient"
+msgstr ""
+
+#: inc/customize/configs/background.php:205
+msgid "Start Color"
+msgstr ""
+
+#: inc/customize/configs/background.php:211
+msgid "End Color"
+msgstr ""
+
+#: inc/customize/configs/background.php:218
+msgid "Angel"
+msgstr ""
+
+#: inc/customize/configs/loader.php:14
+msgid "Loader"
+msgstr ""
+
+#: inc/customize/configs/loader.php:225
+msgid "Loader Animation"
+msgstr ""
+
+#: inc/customize/configs/loader.php:227
+msgid ""
+"Some support custom image. All animations are looping forever by default. "
+"Some support %sLoop Once%s, working best with progress bar or percentage "
+"indicator."
+msgstr ""
+
+#: inc/customize/configs/loader.php:232
+msgid "No Animation"
+msgstr ""
+
+#: inc/customize/configs/loader.php:233
+msgid "Spinning Sun"
+msgstr ""
+
+#: inc/customize/configs/loader.php:234
+msgid "Luminous Circles"
+msgstr ""
+
+#: inc/customize/configs/loader.php:235
+msgid "Wave"
+msgstr ""
+
+#: inc/customize/configs/loader.php:236
+msgid "Spinning Square"
+msgstr ""
+
+#: inc/customize/configs/loader.php:237
+msgid "Drawing Frame"
+msgstr ""
+
+#: inc/customize/configs/loader.php:238
+msgid "Custom Image Loading"
+msgstr ""
+
+#: inc/customize/configs/loader.php:239
+msgid "Custom Image Rotating"
+msgstr ""
+
+#: inc/customize/configs/loader.php:240
+msgid "Custom Image Bouncing"
+msgstr ""
+
+#: inc/customize/configs/loader.php:241
+msgid "Crossing Circles"
+msgstr ""
+
+#: inc/customize/configs/loader.php:242
+msgid "Ducks"
+msgstr ""
+
+#: inc/customize/configs/loader.php:243
+msgid "Rainbow"
+msgstr ""
+
+#: inc/customize/configs/loader.php:244
+msgid "Circle Filling"
+msgstr ""
+
+#: inc/customize/configs/loader.php:245
+msgid "Water Filling"
+msgstr ""
+
+#: inc/customize/configs/loader.php:246
+msgid "Crystal"
+msgstr ""
+
+#: inc/customize/configs/loader.php:247
+msgid "Petals"
+msgstr ""
+
+#: inc/customize/configs/loader.php:248
+msgid "Static Image"
+msgstr ""
+
+#: inc/customize/configs/loader.php:249
+msgid "Beating"
+msgstr ""
+
+#: inc/customize/configs/loader.php:250
+msgid "Custom Image Fading"
+msgstr ""
+
+#: inc/customize/configs/loader.php:251
+msgid "Incomplete Ring"
+msgstr ""
+
+#: inc/customize/configs/loader.php:264
+msgid "Frame Width"
+msgstr ""
+
+#: inc/customize/configs/loader.php:274
+msgid "Frame Height"
+msgstr ""
+
+#: inc/customize/configs/loader.php:284
+msgid "Frame Border"
+msgstr ""
+
+#: inc/customize/configs/loader.php:293
+msgid "Pick Left Color"
+msgstr ""
+
+#: inc/customize/configs/loader.php:299
+msgid "Pick Right Color"
+msgstr ""
+
+#: inc/customize/configs/loader.php:305
+msgid "Pick Outer Color"
+msgstr ""
+
+#: inc/customize/configs/loader.php:311
+msgid "Pick Middle Color"
+msgstr ""
+
+#: inc/customize/configs/loader.php:317
+msgid "Pick Inner Color"
+msgstr ""
+
+#: inc/customize/configs/loader.php:332
+msgid "Image Width"
+msgstr ""
+
+#: inc/customize/configs/loader.php:342
+msgid "Max Width for Responsive Design"
+msgstr ""
+
+#: inc/customize/configs/loader.php:353
+msgid "Looping"
+msgstr ""
+
+#: inc/customize/configs/loader.php:354 inc/customize/configs/progress.php:136
+msgid "Hover on preview area and wait for 3 seconds to see the result."
+msgstr ""
+
+#: inc/customize/configs/loader.php:363
+msgid "Forever"
+msgstr ""
+
+#: inc/customize/configs/loader.php:364
+msgid "Once"
+msgstr ""
+
+#: inc/customize/configs/loader.php:369 inc/customize/configs/loader.php:382
+msgid "Direction"
+msgstr ""
+
+#: inc/customize/configs/loader.php:376
+msgid "Horizontal"
+msgstr ""
+
+#: inc/customize/configs/loader.php:377
+msgid "Vertical"
+msgstr ""
+
+#: inc/customize/configs/loader.php:388
+msgid "2D"
+msgstr ""
+
+#: inc/customize/configs/loader.php:389
+msgid "3D Y Axis"
+msgstr ""
+
+#: inc/customize/configs/loader.php:390
+msgid "3D X Axis"
+msgstr ""
+
+#: inc/customize/configs/loader.php:395
+msgid "Rotation"
+msgstr ""
+
+#: inc/customize/configs/loader.php:400
+msgid "Clockwise"
+msgstr ""
+
+#: inc/customize/configs/loader.php:401
+msgid "Counterclockwise"
+msgstr ""
+
+#: inc/customize/configs/loader.php:406
+msgid "Speed Curve"
+msgstr ""
+
+#: inc/customize/configs/loader.php:411
+msgid "Linear"
+msgstr ""
+
+#: inc/customize/configs/loader.php:412
+msgid "Ease Out & Back"
+msgstr ""
+
+#: inc/customize/configs/loader.php:417
+msgid "Also Rolling?"
+msgstr ""
+
+#: inc/customize/configs/loader.php:425
+msgid "Blend Mode"
+msgstr ""
+
+#: inc/customize/configs/loader.php:433
+msgid "Lighten"
+msgstr ""
+
+#: inc/customize/configs/loader.php:434
+msgid "Darken"
+msgstr ""
+
+#: inc/customize/configs/loader.php:439
+msgid "Vertical Direction"
+msgstr ""
+
+#: inc/customize/configs/loader.php:444
+msgid "Bottom to Top"
+msgstr ""
+
+#: inc/customize/configs/loader.php:445
+msgid "Top to Bottom"
+msgstr ""
+
+#: inc/customize/configs/main.php:15 inc/customize/configs/main.php:30
+msgid "Enable LoftLoader"
+msgstr ""
+
+#: inc/customize/configs/message.php:15 inc/customize/configs/message.php:106
+msgid "Message"
+msgstr ""
+
+#: inc/customize/configs/message.php:109
+msgid "Supports the following simple HTML markups: <br>, <b>, <i>"
+msgstr ""
+
+#: inc/customize/configs/message.php:111
+msgid "Enter your message..."
+msgstr ""
+
+#: inc/customize/configs/message.php:115
+msgid "Enable Random Message Feature"
+msgstr ""
+
+#: inc/customize/configs/message.php:123
+msgid ""
+"Enter messages. Separate each message by a line break. Supports the "
+"following simple HTML markups: <br>, <b>, <i>"
+msgstr ""
+
+#: inc/customize/configs/message.php:126
+msgid "Enter your messages..."
+msgstr ""
+
+#: inc/customize/configs/message.php:130
+msgid "Dynamically render messages on the frontend via JavaScript "
+msgstr ""
+
+#: inc/customize/configs/message.php:133
+msgid ""
+"Please check this option if your site is using any cache/performance "
+"optimization plugin."
+msgstr ""
+
+#: inc/customize/configs/message.php:140 inc/customize/configs/progress.php:149
+#: inc/customize/configs/progress.php:190
+msgid "Position"
+msgstr ""
+
+#: inc/customize/configs/message.php:145 inc/customize/configs/progress.php:156
+msgid "Top"
+msgstr ""
+
+#: inc/customize/configs/message.php:146
+msgid "Before Progress"
+msgstr ""
+
+#: inc/customize/configs/message.php:147 inc/customize/configs/progress.php:158
+msgid "Bottom"
+msgstr ""
+
+#: inc/customize/configs/message.php:152 inc/customize/configs/progress.php:222
+msgid "Size"
+msgstr ""
+
+#: inc/customize/configs/message.php:171 inc/customize/configs/progress.php:237
+msgid "Font"
+msgstr ""
+
+#: inc/customize/configs/message.php:175 inc/customize/configs/progress.php:242
+msgid "Choose a Google Font "
+msgstr ""
+
+#: inc/customize/configs/message.php:176 inc/customize/configs/progress.php:243
+msgid "Use site default font"
+msgstr ""
+
+#: inc/customize/configs/message.php:181 inc/customize/configs/progress.php:248
+msgid "Google Font"
+msgstr ""
+
+#: inc/customize/configs/message.php:189 inc/customize/configs/progress.php:256
+msgid "Font Weight"
+msgstr ""
+
+#: inc/customize/configs/message.php:205 inc/customize/configs/progress.php:273
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/customize/configs/message.php:218
+msgid "Line Height"
+msgstr ""
+
+#: inc/customize/configs/more.php:15
+msgid "More"
+msgstr ""
+
+#: inc/customize/configs/more.php:16
+msgid ""
+"Please note: the options in the More section only show and work on front end."
+msgstr ""
+
+#: inc/customize/configs/more.php:22 inc/customize/configs/more.php:114
+msgid "Minimum Load Time"
+msgstr ""
+
+#: inc/customize/configs/more.php:26 inc/customize/configs/more.php:129
+msgid "Devices"
+msgstr ""
+
+#: inc/customize/configs/more.php:30 inc/customize/configs/more.php:141
+msgid "Smooth Page Transition"
+msgstr ""
+
+#: inc/customize/configs/more.php:34
+msgid "Disable Page Scrolling"
+msgstr ""
+
+#: inc/customize/configs/more.php:38
+msgid "Close Button"
+msgstr ""
+
+#: inc/customize/configs/more.php:42
+msgid "Inner Elements Animation"
+msgstr ""
+
+#: inc/customize/configs/more.php:45
+msgid ""
+"Here you can control the animation of inner elements such as the loader, "
+"progress indicator, and message. For more information please read the "
+"%sdocumentation%s."
+msgstr ""
+
+#: inc/customize/configs/more.php:133
+msgid "Enable on all devices"
+msgstr ""
+
+#: inc/customize/configs/more.php:134
+msgid "Hide on mobile"
+msgstr ""
+
+#: inc/customize/configs/more.php:135
+msgid "Enable on mobile only"
+msgstr ""
+
+#: inc/customize/configs/more.php:148
+msgid "Links excluded from Smooth Page Transition"
+msgstr ""
+
+#: inc/customize/configs/more.php:149
+msgid "Seperated by comma(,)"
+msgstr ""
+
+#: inc/customize/configs/more.php:157
+msgid "Disable Page Scroll while Loading"
+msgstr ""
+
+#: inc/customize/configs/more.php:165
+msgid "Show Close Button after"
+msgstr ""
+
+#: inc/customize/configs/more.php:179
+msgid "Description for Close Button"
+msgstr ""
+
+#: inc/customize/configs/more.php:187
+msgid "Entrance Animation"
+msgstr ""
+
+#: inc/customize/configs/more.php:192
+msgid "Fade In"
+msgstr ""
+
+#: inc/customize/configs/more.php:198
+msgid "Exit Animation"
+msgstr ""
+
+#: inc/customize/configs/more.php:202
+msgid "Fade Out"
+msgstr ""
+
+#: inc/customize/configs/progress.php:14 inc/customize/configs/progress.php:135
+msgid "Progress"
+msgstr ""
+
+#: inc/customize/configs/progress.php:142
+msgid "Loading Bar"
+msgstr ""
+
+#: inc/customize/configs/progress.php:143
+msgid "Percentage"
+msgstr ""
+
+#: inc/customize/configs/progress.php:144
+msgid "Bar + Number"
+msgstr ""
+
+#: inc/customize/configs/progress.php:157
+#: inc/customize/configs/progress.php:197
+msgid "Middle"
+msgstr ""
+
+#: inc/customize/configs/progress.php:163
+msgid "Width"
+msgstr ""
+
+#: inc/customize/configs/progress.php:179
+msgid "Height"
+msgstr ""
+
+#: inc/customize/configs/progress.php:198
+msgid "Below Loader"
+msgstr ""
+
+#: inc/customize/configs/progress.php:203
+msgid "Layer"
+msgstr ""
+
+#: inc/customize/configs/progress.php:210
+msgid "Front"
+msgstr ""
+
+#: inc/customize/configs/range.php:15
+msgid "Display on"
+msgstr ""
+
+#: inc/customize/configs/range.php:71
+msgid "Sitewide"
+msgstr ""
+
+#: inc/customize/configs/range.php:72
+msgid "Homepage only"
+msgstr ""
+
+#: inc/customize/configs/range.php:73
+msgid "Once per session"
+msgstr ""
+
+#: inc/customize/configs/range.php:74
+msgid "Homepage only + Once per session"
+msgstr ""
+
+#: inc/customize/configs/range.php:75
+msgid "All pages"
+msgstr ""
+
+#: inc/customize/configs/range.php:76
+msgid "Sitewide - Selected Types"
+msgstr ""
+
+#: inc/customize/configs/range.php:77
+msgid "Selected Post Types"
+msgstr ""
+
+#: inc/customize/configs/range.php:78
+msgid "Handpick"
+msgstr ""
+
+#: inc/customize/configs/range.php:83
+msgid "Choose page/post"
+msgstr ""
+
+#: inc/customize/configs/range.php:84
+msgid ""
+"Please use the CTRL key (PC) or COMMAND key (Mac) to select multiple items."
+msgstr ""
+
+#: inc/customize/configs/range.php:91 inc/customize/configs/range.php:102
+msgid "Choose Post Types"
+msgstr ""
+
+#: inc/customize/configs/range.php:96
+msgid ""
+"Loader will not show for the selected post types.%sPlease use the CTRL key "
+"(PC) or COMMAND key (Mac) to select multiple items."
+msgstr ""
+
+#: inc/customize/configs/range.php:107
+msgid ""
+"Loader will show for the selected post types.%sPlease use the CTRL key (PC) "
+"or COMMAND key (Mac) to select multiple items."
+msgstr ""
+
+#: inc/customize/configs/range.php:117
+msgid ""
+"Please note: \"Once per session\" feature only works on front end. To "
+"preview the result, please always clear your browser cookie first. More "
+"information please refer to %ssession cookie%s."
+msgstr ""
+
+#: inc/frontend/class-loader-html.php:132
+msgid "Close"
+msgstr ""
+
+#: loftloader-pro.php:130
+msgid "Customize LoftLoader Pro"
+msgstr ""
+
+#: loftloader-pro.php:131
+msgid "Customize"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.loftocean.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An easy to use plugin to add an animated preloader to your website with "
+"fully customisations."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Loft.Ocean"
+msgstr ""

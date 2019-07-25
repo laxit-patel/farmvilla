@@ -1,0 +1,41 @@
+.post-type-page {
+  .editor-post-title__block > div:first-child:after {
+    content: none;
+  }
+}
+
+.editor-post-title__block > div:first-child:after {
+  content: ' ';
+  width: 350px;
+  height: 15px;
+  display: block;
+  background: linear-gradient(90deg,
+          $color-secondary 0%, $color-secondary 6%,
+          transparent 6.01%, transparent 7.5%,
+          $color-secondary 7.51%, $color-secondary 24%,
+          transparent 24.01%, transparent 26%,
+          $color-secondary 26.01%, $color-secondary 43%,
+          transparent 43.01%, transparent 45%,
+          $color-secondary 45.01%, $color-secondary 75%,
+          transparent 75.01%, transparent 77%,
+          $color-secondary 77.01%
+  );
+  margin: 0 0 40px 15px;
+
+  .header-default & {
+    margin: 20px auto 0;
+    opacity: .75;
+    background: linear-gradient(90deg,
+            #fff 0%, #fff 6%,
+            transparent 6.01%, transparent 7.5%,
+            #fff 7.51%, #fff 24%,
+            transparent 24.01%, transparent 26%,
+            #fff 26.01%, #fff 43%,
+            transparent 43.01%, transparent 45%,
+            #fff 45.01%, #fff 75%,
+            transparent 75.01%, transparent 77%,
+            #fff 77.01%
+    );
+  }
+}
+

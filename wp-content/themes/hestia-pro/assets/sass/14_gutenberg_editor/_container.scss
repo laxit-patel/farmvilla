@@ -1,0 +1,51 @@
+.wp-block:not([data-align=wide]):not([data-align=full]) {
+  max-width: 100%;
+}
+
+$wp-block-selector: '
+.sidebar-full-width .wp-block:not([data-align=wide]):not([data-align=full]),
+.header-default:not(.sidebar-full-width) .hestia-block-list-wrap,
+.header-no-content:not(.sidebar-full-width) .hestia-writing-flow-inside,
+.header-classic-blog:not(.sidebar-full-width) .hestia-writing-flow-inside';
+
+.sidebar-full-width .wp-block[data-align=wide], .sidebar-full-width .wp-block[data-align=full] {
+  padding: 0;
+}
+
+#{$wp-block-selector} {
+  max-width: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 749px) {
+  #{$wp-block-selector} {
+    max-width: 748px;
+  }
+}
+
+@media (min-width: 768px) {
+  #{$wp-block-selector} {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  #{$wp-block-selector} {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #{$wp-block-selector} {
+    max-width: 1170px;
+  }
+}
+
+.hestia-gtb .editor-block-list__layout .editor-block-list__block {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+

@@ -1,0 +1,2691 @@
+# Copyright (C) 2016 SEOPress
+# This file is distributed under the same license as the SEOPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: SEOPress 2.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-seopress\n"
+"POT-Creation-Date: 2018-08-13 11:49+0200\n"
+"PO-Revision-Date: 2018-11-13 19:06+0100\n"
+"Last-Translator: IMGemak <info@imgemak.nl>\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin/admin-columns/ac-column-sp_desc.php:10
+msgid "Meta description"
+msgstr ""
+
+#: inc/admin/admin-columns/ac-column-sp_nofollow.php:10
+msgid "nofollow?"
+msgstr ""
+
+#: inc/admin/admin-columns/ac-column-sp_noindex.php:10
+msgid "noindex?"
+msgstr ""
+
+#: inc/admin/admin-columns/ac-column-sp_title.php:12
+msgid "Meta title"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:38 inc/admin/admin.php:115
+msgid "Structured Data Types"
+msgstr "Gestructureerde data types"
+
+#: inc/admin/admin-metaboxes.php:124
+msgid "Select your data type"
+msgstr "Wat voor type content is dit?"
+
+#: inc/admin/admin-metaboxes.php:126 inc/admin/admin.php:2343
+msgid "None"
+msgstr "Geen"
+
+#: inc/admin/admin-metaboxes.php:127
+msgid "Article"
+msgstr "Artikel"
+
+#: inc/admin/admin-metaboxes.php:128
+msgid "Course"
+msgstr "Cursus"
+
+#: inc/admin/admin-metaboxes.php:129
+msgid "Recipe"
+msgstr "Recept"
+
+#: inc/admin/admin-metaboxes.php:130
+msgid "Video"
+msgstr "Video"
+
+#: inc/admin/admin-metaboxes.php:131
+msgid "Event"
+msgstr "Evenement"
+
+#: inc/admin/admin-metaboxes.php:132
+msgid "Product"
+msgstr "Product"
+
+#: inc/admin/admin-metaboxes.php:135
+msgid "WARNING"
+msgstr "Waarschuwing"
+
+#: inc/admin/admin-metaboxes.php:136
+msgid "Be sure to select the right structure data type for your content."
+msgstr "Selecteer het juiste type."
+
+#: inc/admin/admin-metaboxes.php:137
+msgid "When you choose one, fill all fields with the right format."
+msgstr "Vul alle velden in. "
+
+#: inc/admin/admin-metaboxes.php:138
+msgid ""
+"Make sure you don't have already include structure data type with a theme or "
+"plugin (eg: the default WooCommerce Theme, Storefront, already implement "
+"this for single page products."
+msgstr ""
+"Zorg dat je alle velden hebt ingevuld en controleer vervolgens via Google of "
+"alles goed is gegaan. "
+
+#: inc/admin/admin-metaboxes.php:139
+msgid "You can test your page with Google Data Structure Test tool."
+msgstr "Je kunt de pagina testen via de Google Data Structure Test tool"
+
+#: inc/admin/admin-metaboxes.php:139
+msgid "Make a test"
+msgstr "Test de pagina"
+
+#: inc/admin/admin-metaboxes.php:144
+msgid ""
+"Proper structured data in your news, blog, and sports article page can "
+"enhance your appearance in Google Search results."
+msgstr ""
+"Met de juiste opmaak en gegevens in je nieuws-, blog en artikelen, kun je "
+"jouw uiterlijk in de zoekresultaten van Google verbeteren."
+
+#: inc/admin/admin-metaboxes.php:147
+msgid "You have set a publisher logo. Good!"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:149
+msgid ""
+"You don't have set a publisher logo. It's required for Article content types."
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:154
+#, fuzzy
+#| msgid "Select your data type"
+msgid "Select your article type"
+msgstr "Wat voor type content is dit?"
+
+#: inc/admin/admin-metaboxes.php:156
+#, fuzzy
+#| msgid "Article"
+msgid "News Article"
+msgstr "Artikel"
+
+#: inc/admin/admin-metaboxes.php:157
+msgid "Report"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:158
+msgid "Scholarly Article"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:159
+msgid "Social Media Posting"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:160
+#, fuzzy
+#| msgid "Article"
+msgid "TechArticle"
+msgstr "Artikel"
+
+#: inc/admin/admin-metaboxes.php:165 inc/admin/admin-metaboxes.php:166
+msgid "Headline <em>(max limit: 110)</em>"
+msgstr "De kop <em>(max.: 110)</em>"
+
+#: inc/admin/admin-metaboxes.php:169 inc/admin/admin-metaboxes.php:201
+msgid "(maximum limit)"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:173 inc/admin/admin-metaboxes.php:176
+#: inc/admin/admin-metaboxes.php:237 inc/admin/admin-metaboxes.php:239
+msgid "Image"
+msgstr "Afbeelding"
+
+#: inc/admin/admin-metaboxes.php:174
+msgid ""
+"The representative image of the article. Only a marked-up image that "
+"directly belongs to the article should be specified. "
+msgstr "Welke afbeelding past het best bij dit artikel?"
+
+#: inc/admin/admin-metaboxes.php:175
+msgid "Minimum size: 696px wide, JPG, PNG or GIF, crawlable and indexable"
+msgstr "Minimale grootte: 696px breed. Toegestaan: jpg, png of GIF."
+
+#: inc/admin/admin-metaboxes.php:179 inc/admin/admin-metaboxes.php:240
+#: inc/admin/admin-metaboxes.php:282 inc/admin/admin-metaboxes.php:455
+#: inc/admin/admin.php:1974
+msgid "Upload an Image"
+msgstr "Upload de afbeelding"
+
+#: inc/admin/admin-metaboxes.php:184
+msgid ""
+"Mark up your course lists with structured data so prospective students find "
+"you through Google Search. "
+msgstr "Maak duidelijk dat dit om een cursus gaat"
+
+#: inc/admin/admin-metaboxes.php:187
+msgid ""
+"Only use course markup for educational content that fits the following "
+"definition of a course: A series or unit of curriculum that contains "
+"lectures, lessons, or modules in a particular subject and/or topic."
+msgstr ""
+"Is dit echt een cursus? Staan er echt lessen of modules op deze pagina?"
+
+#: inc/admin/admin-metaboxes.php:188
+msgid ""
+"A course must have an explicit educational outcome of knowledge and/or skill "
+"in a particular subject and/or topic, and be led by one or more instructors "
+"with a roster of students."
+msgstr ""
+"Om goedgekeurd te worden door Google dien je op deze pagina mensen wel echt "
+"iets te leren."
+
+#: inc/admin/admin-metaboxes.php:189
+msgid ""
+"A general public event such as \"Astronomy Day\" is not a course, and a "
+"single 2-minute \"How to make a Sandwich Video\" is not a course."
+msgstr ""
+"Een evenement of een seminar is geen cursus, ook een 2 minuut durende video "
+"wordt door Google niet gezien als cursus."
+
+#: inc/admin/admin-metaboxes.php:193 inc/admin/admin-metaboxes.php:194
+msgid "Title"
+msgstr "Titel"
+
+#: inc/admin/admin-metaboxes.php:197 inc/admin/admin-metaboxes.php:198
+msgid "Course description"
+msgstr "Beschrijving van de cursus"
+
+#: inc/admin/admin-metaboxes.php:206 inc/admin/admin-metaboxes.php:207
+msgid "School/Organization"
+msgstr "School of organisatie"
+
+#: inc/admin/admin-metaboxes.php:211 inc/admin/admin-metaboxes.php:212
+msgid "School/Organization Website"
+msgstr "Website"
+
+#: inc/admin/admin-metaboxes.php:217
+msgid ""
+"Mark up your recipe content with structured data to provide rich cards and "
+"host-specific lists for your recipes, such as cooking and preparation times, "
+"nutrition information..."
+msgstr "Vertel Google alles over jouw recepten"
+
+#: inc/admin/admin-metaboxes.php:220
+msgid ""
+"Use recipe markup for content about preparing a particular dish. For "
+"example, \"facial scrub\" or \"party ideas\" are not valid names for a dish."
+msgstr ""
+"Gebruik het data type recept om aan Google aan te geven dat dit om een "
+"recept gaat. Geef duidelijk een naam aan het recept. "
+
+#: inc/admin/admin-metaboxes.php:224 inc/admin/admin-metaboxes.php:225
+msgid "Recipe name"
+msgstr "Wat is de naam van je recept?"
+
+#: inc/admin/admin-metaboxes.php:228 inc/admin/admin-metaboxes.php:229
+msgid "Short recipe description"
+msgstr "Een kleine omschrijving van het recept"
+
+#: inc/admin/admin-metaboxes.php:233 inc/admin/admin-metaboxes.php:234
+msgid "Recipe category"
+msgstr "Receptcategorie"
+
+#: inc/admin/admin-metaboxes.php:238
+msgid "Minimum size: 185px by 185px, aspect ratio 1:1"
+msgstr "Minimale grootte: 185px bij 185px"
+
+#: inc/admin/admin-metaboxes.php:244 inc/admin/admin-metaboxes.php:245
+msgid "Preparation time (in minutes)"
+msgstr "Bereidingstijd (in minuten)"
+
+#: inc/admin/admin-metaboxes.php:249 inc/admin/admin-metaboxes.php:250
+msgid "Cooking time (in minutes)"
+msgstr "Kooktijd (minuten)"
+
+#: inc/admin/admin-metaboxes.php:254 inc/admin/admin-metaboxes.php:255
+msgid "Calories"
+msgstr "Calorieën"
+
+#: inc/admin/admin-metaboxes.php:259 inc/admin/admin-metaboxes.php:260
+msgid "Recipe yield"
+msgstr "Receptuur"
+
+#: inc/admin/admin-metaboxes.php:265
+msgid ""
+"Mark up your video content with structured data to make Google Search an "
+"entry point for discovering and watching videos. "
+msgstr "Vertel Google alles over jouw video"
+
+#: inc/admin/admin-metaboxes.php:269 inc/admin/admin-metaboxes.php:270
+msgid "Video name"
+msgstr "Naam van de video"
+
+#: inc/admin/admin-metaboxes.php:273 inc/admin/admin-metaboxes.php:274
+msgid "Video description"
+msgstr "Video omschrijving"
+
+#: inc/admin/admin-metaboxes.php:277 inc/admin/admin-metaboxes.php:279
+msgid "Video thumbnail"
+msgstr "Video thumbnail"
+
+#: inc/admin/admin-metaboxes.php:278
+msgid ""
+"Minimum size: 160px by 90px - Max size: 1920x1080px - crawlable and indexable"
+msgstr ""
+"Minimale grootte: 160px bij 90px - Max: 1920x1080x. Toegestaan: jpg, png of "
+"GIF"
+
+#: inc/admin/admin-metaboxes.php:286 inc/admin/admin-metaboxes.php:287
+msgid "Duration of your video (in minutes)"
+msgstr "Hoe lang duurt de video? (in minuten)"
+
+#: inc/admin/admin-metaboxes.php:291 inc/admin/admin-metaboxes.php:292
+msgid "Video URL"
+msgstr "Video-URL"
+
+#: inc/admin/admin-metaboxes.php:297
+msgid ""
+"Event markup describes the details of organized events. When you use it in "
+"your content, that event becomes relevant for enhanced search results for "
+"relevant queries."
+msgstr "Vertel Google alles over jouw evenementen"
+
+#: inc/admin/admin-metaboxes.php:300
+msgid ""
+"<strong>Expired events.</strong> Events data for any feature will never be "
+"shown for expired events. However, you do not have to remove markup for "
+"expired events."
+msgstr ""
+"<strong>Eerdere evenementen</strong>Voor evenementen die al geweest zijn zal "
+"Google geen data meer ophalen. Je hoeft de tag niet te verwijderen. "
+
+#: inc/admin/admin-metaboxes.php:301
+msgid ""
+"<strong>Indicate the performer.</strong> Each event item must specify a "
+"performer property corresponding to the event's performer; that is, a "
+"musician, musical group, presenter, actor, and so on."
+msgstr "Is er een spreker, band of presentator?"
+
+#: inc/admin/admin-metaboxes.php:302
+msgid "<strong>Do not include promotional elements in the name.</strong>"
+msgstr "Gebruik geen commerciële uitingen in de naam van het evenement"
+
+#: inc/admin/admin-metaboxes.php:304
+msgid ""
+"Promoting non-event products or services: \"Trip package: San Diego/LA, 7 "
+"nights\""
+msgstr "Het promoten van producten of diensten (i.p.v. evenementen)"
+
+#: inc/admin/admin-metaboxes.php:305
+msgid ""
+"Prices in event titles: \"Music festival - only $10!\" Instead, highlight "
+"ticket prices using the tickets property in your markup."
+msgstr ""
+"Een prijs in de titel vermelden. Bijvoorbeeld - \"Muziekfestival - Nu 10 "
+"euro korting\""
+
+#: inc/admin/admin-metaboxes.php:306
+msgid "Using a non-event for a title, such as: \"Sale on dresses!\""
+msgstr ""
+"Geen evenement benoemen in de titel. Bijvoorbeeld: \"Nu korting op de SEO "
+"cursus\""
+
+#: inc/admin/admin-metaboxes.php:307
+#, php-format
+msgid ""
+"Discounts or purchase opportunties, such as: \"Concert - buy your tickets "
+"now,\" or \"Concert - 50% off until Saturday!\""
+msgstr ""
+"Kortingen op evenementen, bijvoorbeeld: \"Concert - Nu kaartjes voor 50%  of "
+"2 voor prijs van 1\""
+
+#: inc/admin/admin-metaboxes.php:309
+msgid ""
+"<strong>Multi-day events.</strong> If your event/ticket info is for the "
+"festival itself, specify both the start and end date of the festival. If "
+"your event/ticket info is for a specific performance that is part of the "
+"festival, specify the specific date of the performance. If the specific date "
+"is unavailable, specify both the start and end date of the festival."
+msgstr ""
+"<strong>Meerdaagse evenementen.</strong>Gaat het om het evenement zelf? Geef "
+"dan duidelijk de start en einddatum op. "
+
+#: inc/admin/admin-metaboxes.php:312
+msgid "Select your event type"
+msgstr "Wat voor type evenement is het?"
+
+#: inc/admin/admin-metaboxes.php:314
+msgid "Comedy Event"
+msgstr "Comedy"
+
+#: inc/admin/admin-metaboxes.php:315
+msgid "Festival"
+msgstr "Festival"
+
+#: inc/admin/admin-metaboxes.php:316
+msgid "Food Event"
+msgstr "Food festival"
+
+#: inc/admin/admin-metaboxes.php:317
+msgid "Music Event"
+msgstr "Muziek evenement"
+
+#: inc/admin/admin-metaboxes.php:318
+msgid "Theater Event"
+msgstr "Theater"
+
+#: inc/admin/admin-metaboxes.php:319
+msgid "Sports Event"
+msgstr "Sport"
+
+#: inc/admin/admin-metaboxes.php:324 inc/admin/admin-metaboxes.php:325
+msgid "Event name"
+msgstr "Naam evenement"
+
+#: inc/admin/admin-metaboxes.php:329 inc/admin/admin-metaboxes.php:330
+msgid "Start date"
+msgstr "Startdatum"
+
+#: inc/admin/admin-metaboxes.php:334 inc/admin/admin-metaboxes.php:335
+msgid "Start time"
+msgstr "Start tijd"
+
+#: inc/admin/admin-metaboxes.php:339 inc/admin/admin-metaboxes.php:340
+msgid "End date"
+msgstr "Einddatum"
+
+#: inc/admin/admin-metaboxes.php:344 inc/admin/admin-metaboxes.php:345
+msgid "End time"
+msgstr "Eind tijd"
+
+#: inc/admin/admin-metaboxes.php:349 inc/admin/admin-metaboxes.php:350
+msgid "Location name"
+msgstr "Locatie naam"
+
+#: inc/admin/admin-metaboxes.php:354 inc/admin/admin-metaboxes.php:355
+msgid "Location Website"
+msgstr "Website"
+
+#: inc/admin/admin-metaboxes.php:359 inc/admin/admin-metaboxes.php:360
+msgid "Location Address"
+msgstr "Locatie"
+
+#: inc/admin/admin-metaboxes.php:364 inc/admin/admin-metaboxes.php:365
+msgid "Offer name"
+msgstr "Naam:"
+
+#: inc/admin/admin-metaboxes.php:368
+msgid "Select your offer category"
+msgstr "Status van de verkoop"
+
+#: inc/admin/admin-metaboxes.php:370
+msgid "Primary"
+msgstr "Primaire"
+
+#: inc/admin/admin-metaboxes.php:371
+msgid "Secondary"
+msgstr "Secundair"
+
+#: inc/admin/admin-metaboxes.php:372
+msgid "Presale"
+msgstr "Voorverkoop"
+
+#: inc/admin/admin-metaboxes.php:373
+msgid "Premium"
+msgstr "Premium"
+
+#: inc/admin/admin-metaboxes.php:378 inc/admin/admin-metaboxes.php:380
+msgid "Price"
+msgstr "Prijs"
+
+#: inc/admin/admin-metaboxes.php:379
+msgid ""
+"The lowest available price, including service charges and fees, of this type "
+"of ticket."
+msgstr "De laagste prijs van een beschikbare ticket"
+
+#: inc/admin/admin-metaboxes.php:383
+msgid "Select your currency"
+msgstr "Munteenheid"
+
+#: inc/admin/admin-metaboxes.php:385 inc/admin/admin-metaboxes.php:466
+msgid "Select a Currency"
+msgstr "Munteenheid"
+
+#: inc/admin/admin-metaboxes.php:386 inc/admin/admin-metaboxes.php:467
+msgid "U.S. Dollar"
+msgstr "US dollar"
+
+#: inc/admin/admin-metaboxes.php:387 inc/admin/admin-metaboxes.php:468
+msgid "Pound Sterling"
+msgstr "Brits pond"
+
+#: inc/admin/admin-metaboxes.php:388 inc/admin/admin-metaboxes.php:469
+msgid "Euro"
+msgstr "Euro"
+
+#: inc/admin/admin-metaboxes.php:389 inc/admin/admin-metaboxes.php:470
+msgid "Australian Dollar"
+msgstr "Australische Dollar"
+
+#: inc/admin/admin-metaboxes.php:390 inc/admin/admin-metaboxes.php:471
+msgid "Brazilian Real"
+msgstr "Braziliaanse Real"
+
+#: inc/admin/admin-metaboxes.php:391 inc/admin/admin-metaboxes.php:472
+msgid "Canadian Dollar"
+msgstr "Canadese Dollar"
+
+#: inc/admin/admin-metaboxes.php:392 inc/admin/admin-metaboxes.php:473
+msgid "Czech Koruna"
+msgstr "Czech Koruna"
+
+#: inc/admin/admin-metaboxes.php:393 inc/admin/admin-metaboxes.php:474
+msgid "Danish Krone"
+msgstr "Danish Krone"
+
+#: inc/admin/admin-metaboxes.php:394 inc/admin/admin-metaboxes.php:475
+msgid "Hong Kong Dollar"
+msgstr "Hongkongse Dollar"
+
+#: inc/admin/admin-metaboxes.php:395 inc/admin/admin-metaboxes.php:476
+msgid "Hungarian Forint"
+msgstr "Hungarian Forint"
+
+#: inc/admin/admin-metaboxes.php:396 inc/admin/admin-metaboxes.php:477
+msgid "Indian rupee"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:397 inc/admin/admin-metaboxes.php:478
+msgid "Israeli New Sheqel"
+msgstr "Israëlische Nieuwe ShekelName"
+
+#: inc/admin/admin-metaboxes.php:398 inc/admin/admin-metaboxes.php:479
+msgid "Japanese Yen"
+msgstr "Japanese Yen"
+
+#: inc/admin/admin-metaboxes.php:399 inc/admin/admin-metaboxes.php:480
+msgid "Malaysian Ringgit"
+msgstr "Maleisische ringgit"
+
+#: inc/admin/admin-metaboxes.php:400 inc/admin/admin-metaboxes.php:481
+msgid "Mexican Peso"
+msgstr "Mexican Peso"
+
+#: inc/admin/admin-metaboxes.php:401 inc/admin/admin-metaboxes.php:482
+msgid "Norwegian Krone"
+msgstr "Norwegian Krone"
+
+#: inc/admin/admin-metaboxes.php:402 inc/admin/admin-metaboxes.php:483
+msgid "New Zealand Dollar"
+msgstr "New Zeelandse Dollar"
+
+#: inc/admin/admin-metaboxes.php:403 inc/admin/admin-metaboxes.php:484
+msgid "Philippine Peso"
+msgstr "Filipijnse peso"
+
+#: inc/admin/admin-metaboxes.php:404 inc/admin/admin-metaboxes.php:485
+msgid "Polish Zloty"
+msgstr "Polish Zloty"
+
+#: inc/admin/admin-metaboxes.php:405 inc/admin/admin-metaboxes.php:486
+msgid "Russian Ruble"
+msgstr "Russian Ruble"
+
+#: inc/admin/admin-metaboxes.php:406 inc/admin/admin-metaboxes.php:487
+msgid "Singapore Dollar"
+msgstr "Singaporese Dollar"
+
+#: inc/admin/admin-metaboxes.php:407 inc/admin/admin-metaboxes.php:488
+msgid "South African Rand"
+msgstr "Zuid-Afrikaanse rand"
+
+#: inc/admin/admin-metaboxes.php:408 inc/admin/admin-metaboxes.php:489
+msgid "Swedish Krona"
+msgstr "Zweedse Kroon"
+
+#: inc/admin/admin-metaboxes.php:409 inc/admin/admin-metaboxes.php:490
+msgid "Swiss Franc"
+msgstr "Swiss Franc"
+
+#: inc/admin/admin-metaboxes.php:410 inc/admin/admin-metaboxes.php:491
+msgid "Taiwan New Dollar"
+msgstr "Taiwanese nieuwe dollar"
+
+#: inc/admin/admin-metaboxes.php:411 inc/admin/admin-metaboxes.php:492
+msgid "Thai Baht"
+msgstr "Thaise Baht"
+
+#: inc/admin/admin-metaboxes.php:412 inc/admin/admin-metaboxes.php:493
+msgid "Vietnamese đồng"
+msgstr ""
+
+#: inc/admin/admin-metaboxes.php:416
+msgid "Availability"
+msgstr "Beschikbaarheid"
+
+#: inc/admin/admin-metaboxes.php:418 inc/admin/admin-metaboxes.php:499
+msgid "In Stock"
+msgstr "Op voorraad"
+
+#: inc/admin/admin-metaboxes.php:419 inc/admin/admin-metaboxes.php:503
+msgid "Sold Out"
+msgstr "Uitverkocht"
+
+#: inc/admin/admin-metaboxes.php:420 inc/admin/admin-metaboxes.php:506
+msgid "Pre Order"
+msgstr "Pre-Order"
+
+#: inc/admin/admin-metaboxes.php:425 inc/admin/admin-metaboxes.php:426
+msgid "Website to buy tickets"
+msgstr "Website om kaartjes te kopen"
+
+#: inc/admin/admin-metaboxes.php:430 inc/admin/admin-metaboxes.php:431
+msgid "Performer name"
+msgstr "Wie treedt er op?"
+
+#: inc/admin/admin-metaboxes.php:436
+msgid ""
+"Add markup to your product pages so Google can provide detailed product "
+"information in rich Search results - including Image Search. Users can see "
+"price, availability... right on Search results."
+msgstr "Vertel Google alles over je producten"
+
+#: inc/admin/admin-metaboxes.php:439
+msgid ""
+"<strong>Use markup for a specific product, not a category or list of "
+"products.</strong> For example, \"shoes in our shop\" is not a specific "
+"product."
+msgstr ""
+"<strong>Gebruik de markup voor een specifiek product - GEEN categorie</"
+"strong> Bijvoorbeeld \"Blauwe all-stars heren\""
+
+#: inc/admin/admin-metaboxes.php:440
+msgid "<strong>Adult-related products are not supported.</strong>"
+msgstr "<strong>18+ producten zijn niet toegestaan</strong>"
+
+#: inc/admin/admin-metaboxes.php:444 inc/admin/admin-metaboxes.php:445
+msgid "Product name"
+msgstr "Productnaam"
+
+#: inc/admin/admin-metaboxes.php:448 inc/admin/admin-metaboxes.php:449
+msgid "Product description"
+msgstr "Productbeschrijving"
+
+#: inc/admin/admin-metaboxes.php:452 inc/admin/admin-metaboxes.php:454
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: inc/admin/admin-metaboxes.php:453
+msgid ""
+"Pictures clearly showing the product, e.g. against a white background, are "
+"preferred."
+msgstr "Gebruik het liefst een witte achtergrond voor je productafbeeldingen"
+
+#: inc/admin/admin-metaboxes.php:459 inc/admin/admin-metaboxes.php:460
+msgid "Product price"
+msgstr "Product prijs"
+
+#: inc/admin/admin-metaboxes.php:464
+msgid "Product currency"
+msgstr "Valuta"
+
+#: inc/admin/admin-metaboxes.php:497
+msgid "Product Availability"
+msgstr "Voorraadstatus"
+
+#: inc/admin/admin-metaboxes.php:500
+msgid "In Store Only"
+msgstr "Alleen in de winkel"
+
+#: inc/admin/admin-metaboxes.php:501
+msgid "Online Only"
+msgstr "Alleen online"
+
+#: inc/admin/admin-metaboxes.php:502
+msgid "Limited Availability"
+msgstr "Tijdelijk verkrijgbaar"
+
+#: inc/admin/admin-metaboxes.php:504
+msgid "Out Of Stock"
+msgstr "Uitverkocht"
+
+#: inc/admin/admin-metaboxes.php:505
+msgid "Discontinued"
+msgstr "Uit productie genomen"
+
+#: inc/admin/admin-metaboxes.php:507
+msgid "Pre Sale"
+msgstr "Aanbieding"
+
+#: inc/admin/admin.php:67
+#, fuzzy
+#| msgid "<p>SEOPress BOT settings</p>"
+msgid "SEOPress Network settings"
+msgstr "SEOPress BOT instellingen"
+
+#: inc/admin/admin.php:73
+msgid "SEOPress PRO"
+msgstr "SEOPress PRO"
+
+#: inc/admin/admin.php:73
+msgid "PRO"
+msgstr "PRO"
+
+#: inc/admin/admin.php:75
+msgid "Redirections"
+msgstr "Re-directs"
+
+#: inc/admin/admin.php:77 inc/admin/bot.php:13 inc/admin/bot.php:14
+#: inc/admin/bot.php:15 inc/admin/bot.php:16 inc/admin/bot.php:40
+msgid "Broken links"
+msgstr "Gebroken links"
+
+#: inc/admin/admin.php:78 inc/admin/admin.php:125 inc/admin/backlinks.php:13
+#: inc/admin/backlinks.php:14 inc/admin/backlinks.php:15
+#: inc/admin/backlinks.php:16 inc/admin/backlinks.php:40
+msgid "Backlinks"
+msgstr "Backlinks"
+
+#: inc/admin/admin.php:113
+msgid "Local Business"
+msgstr "Lokaal bedrijf"
+
+#: inc/admin/admin.php:114
+msgid "Dublin Core"
+msgstr "Dublin Core"
+
+#: inc/admin/admin.php:116
+msgid "Breadcrumbs"
+msgstr "Kruimelpad"
+
+#: inc/admin/admin.php:117
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/admin.php:118
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: inc/admin/admin.php:119
+msgid "Page Speed"
+msgstr "Snelheid"
+
+#: inc/admin/admin.php:120 inc/admin/admin.php:241
+msgid "robots.txt"
+msgstr "robots.txt"
+
+#: inc/admin/admin.php:121
+msgid "Google News"
+msgstr "Google Nieuws"
+
+#: inc/admin/admin.php:122 inc/admin/redirections.php:39
+#: inc/admin/redirections.php:353
+msgid "404"
+msgstr "404"
+
+#: inc/admin/admin.php:123 inc/admin/admin.php:242
+msgid ".htaccess"
+msgstr ".htaccess"
+
+#: inc/admin/admin.php:124
+msgid "RSS"
+msgstr "RSS"
+
+#: inc/admin/admin.php:126
+msgid "URL Rewriting"
+msgstr ""
+
+#: inc/admin/admin.php:148
+msgid "You need to enable WooCommerce in order to view these settings."
+msgstr "Je hebt een WooCommerce nodig om dit in te stellen"
+
+#: inc/admin/admin.php:157
+msgid ""
+"You need to enable Easy Digital Downloads in order to view these settings."
+msgstr "Geen zorgen, je hebt geen Easy Digital Downloads."
+
+#: inc/admin/admin.php:184
+msgid ""
+"You need to enable XML Sitemap feature, in order to use Google News Sitemap."
+msgstr ""
+"Je dient de XML sitemap te activeren om gebruik te maken van de Google News "
+"Sitemap"
+
+#: inc/admin/admin.php:185
+msgid "Change this settings"
+msgstr "Wijzigen"
+
+#: inc/admin/admin.php:306
+msgid "Post types to scan"
+msgstr "Scan berichtsoorten"
+
+#: inc/admin/admin.php:314
+msgid "Number of posts / pages / post types to scan"
+msgstr "Aantal berichten of pagina's die je wilt scannen."
+
+#: inc/admin/admin.php:322
+msgid "Scan link type (slow down the bot)"
+msgstr "Scan link type"
+
+#: inc/admin/admin.php:330
+msgid "Scan 404 only"
+msgstr "Scan op 404 foutmeldingen"
+
+#: inc/admin/admin.php:338
+msgid "Request Timeout (default 5 sec)"
+msgstr ""
+"Hoe lang zullen we wachten voordat we een link als niet werkend beschouwen? "
+"(standaard 5 sec)"
+
+#: inc/admin/admin.php:355 inc/admin/admin.php:1544
+msgid "Street Address"
+msgstr "Straat en huisnummer"
+
+#: inc/admin/admin.php:363 inc/admin/admin.php:1555
+msgid "City"
+msgstr ""
+
+#: inc/admin/admin.php:371 inc/admin/admin.php:1566
+msgid "State"
+msgstr "Provincie"
+
+#: inc/admin/admin.php:379 inc/admin/admin.php:1577
+msgid "Postal code"
+msgstr "Postcode"
+
+#: inc/admin/admin.php:387 inc/admin/admin.php:1588
+msgid "Country"
+msgstr "Land"
+
+#: inc/admin/admin.php:395 inc/admin/admin.php:1599
+msgid "Latitude"
+msgstr "Breedtegraad"
+
+#: inc/admin/admin.php:403 inc/admin/admin.php:1610
+msgid "Longitude"
+msgstr "Lengtegraad"
+
+#: inc/admin/admin.php:411 inc/admin/admin.php:1621 inc/admin/backlinks.php:164
+msgid "URL"
+msgstr "URL"
+
+#: inc/admin/admin.php:419 inc/admin/admin.php:1632
+msgid "Telephone"
+msgstr "Telefoon"
+
+#: inc/admin/admin.php:427 inc/admin/admin.php:1643
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/admin/admin.php:435 inc/admin/admin.php:1654
+msgid "Price range"
+msgstr "Prijsbereik"
+
+#: inc/admin/admin.php:443
+msgid "Opening hours"
+msgstr "Openingstijden"
+
+#: inc/admin/admin.php:460
+msgid "Cart page"
+msgstr "Winkelmand pagina"
+
+#: inc/admin/admin.php:468
+msgid "Checkout page"
+msgstr "Afrekenpagina"
+
+#: inc/admin/admin.php:476
+msgid "Customer account pages"
+msgstr "Accountpagina's"
+
+#: inc/admin/admin.php:484 inc/admin/admin.php:517
+msgid "OG Price"
+msgstr "Prijs"
+
+#: inc/admin/admin.php:492 inc/admin/admin.php:525
+msgid "OG Currency"
+msgstr "Munteenheid"
+
+#: inc/admin/admin.php:500
+msgid "Remove WooCommerce generator tag in your head"
+msgstr "Verwijder de Woocommerce tag in de head"
+
+#: inc/admin/admin.php:533
+msgid "Remove Easy Digital Downloads generator tag in your head"
+msgstr ""
+
+#: inc/admin/admin.php:550
+msgid "Enable Dublin Core"
+msgstr "Zet de Dublin Core tag aan"
+
+#: inc/admin/admin.php:567
+msgid "Enable Structured Data Types"
+msgstr "Activeer de gestructureerde data types"
+
+#: inc/admin/admin.php:575 inc/admin/admin.php:1968
+msgid "Upload your publisher logo"
+msgstr "Upload een logo"
+
+#: inc/admin/admin.php:592 inc/admin/admin.php:2036
+msgid "Enable Breadcrumbs"
+msgstr "Kruimelpad aanzetten"
+
+#: inc/admin/admin.php:600 inc/admin/admin.php:2048
+msgid "Breadcrumbs Separator"
+msgstr "Scheidingsteken"
+
+#: inc/admin/admin.php:608
+msgid "Translation for homepage"
+msgstr ""
+
+#: inc/admin/admin.php:616
+msgid "Translation for \"Error 404\""
+msgstr ""
+
+#: inc/admin/admin.php:624
+#, fuzzy
+#| msgid "Search results for: "
+msgid "Translation for \"Search results for\""
+msgstr "Zoekresultaten voor:"
+
+#: inc/admin/admin.php:632
+msgid "Translation for \"No results\""
+msgstr ""
+
+#: inc/admin/admin.php:640
+#, fuzzy
+#| msgid "Breadcrumbs Separator"
+msgid "Disable default breadcrumbs separator"
+msgstr "Scheidingsteken"
+
+#: inc/admin/admin.php:666 inc/admin/admin.php:688
+msgid "Enable Robots"
+msgstr "Activeer robots"
+
+#: inc/admin/admin.php:673 inc/admin/admin.php:695 inc/admin/admin.php:2179
+#: inc/admin/admin.php:2188
+msgid "Virtual Robots.txt file"
+msgstr "Robots.txt bestand"
+
+#: inc/admin/admin.php:713 inc/admin/admin.php:2239
+msgid "Enable Google News Sitemap"
+msgstr "Activeer de Google News Sitemap"
+
+#: inc/admin/admin.php:721 inc/admin/admin.php:2251
+msgid "Publication Name (must be the same as used in Google News)"
+msgstr "Publicatienaam (moet hetzelfde zijn als in Google News)"
+
+#: inc/admin/admin.php:729
+msgid "Select your Custom Post Type to INCLUDE in your Google News Sitemap"
+msgstr "Welke soort berichten wil je opnemen in je Google News Sitemap?"
+
+#: inc/admin/admin.php:746
+msgid "404 log"
+msgstr "Alle gevonden 404 foutmeldingen"
+
+#: inc/admin/admin.php:754
+msgid "404 cleaning"
+msgstr "Verwijder alle gevonden 404 meldingen"
+
+#: inc/admin/admin.php:762
+msgid "Redirect 404 to"
+msgstr "Re-direct 404 naar"
+
+#: inc/admin/admin.php:770 inc/admin/admin.php:2362
+msgid "Redirect to specific URL"
+msgstr "Omleiden naar URL"
+
+#: inc/admin/admin.php:778
+msgid "Status code of redirections"
+msgstr "Statuscode"
+
+#: inc/admin/admin.php:786
+msgid "Email notifications"
+msgstr "E-mailmeldingen"
+
+#: inc/admin/admin.php:794 inc/admin/admin.php:2413
+msgid "Send emails to"
+msgstr "Verzend e-mails naar"
+
+#: inc/admin/admin.php:811 inc/admin/admin.php:2436
+msgid "Edit your htaccess file"
+msgstr "Deze optie is uitgeschakeld"
+
+#: inc/admin/admin.php:828 inc/admin/admin.php:2475
+msgid "Display content before each post"
+msgstr "Geef inhoud weer voor het bericht"
+
+#: inc/admin/admin.php:836 inc/admin/admin.php:2490
+msgid "Display content after each post"
+msgstr "Geef inhoud weer na het bericht"
+
+#: inc/admin/admin.php:844
+msgid "Disable comments RSS feed"
+msgstr "Deactiveer reacties in je RSS feed"
+
+#: inc/admin/admin.php:852
+msgid "Disable posts RSS feed"
+msgstr "Schakel RSS feed uit op berichten"
+
+#: inc/admin/admin.php:860
+msgid "Disable extra RSS feed"
+msgstr "Schakel extra RSS feed uit"
+
+#: inc/admin/admin.php:868
+msgid "Disable all RSS feeds"
+msgstr "Schakel alle RSS feeds uit"
+
+#: inc/admin/admin.php:884
+msgid "Connect with Google Analytics API"
+msgstr "Verbinden met Google Analytics API"
+
+#: inc/admin/admin.php:891 inc/admin/admin.php:2779
+msgid "Google Console Client ID"
+msgstr "Google Console Client ID"
+
+#: inc/admin/admin.php:898 inc/admin/admin.php:2793
+msgid "Google Console Secret ID"
+msgstr "Google Console geheim ID"
+
+#: inc/admin/admin.php:923
+msgid "Block Structured Data Types metaboxe to user roles"
+msgstr "Blokkeer gestructureerde data types metabox voor gebruikers"
+
+#: inc/admin/admin.php:940 inc/admin/admin.php:2572
+msgid "Enter your Majestic API key"
+msgstr "Voer je Majestic API key in"
+
+#: inc/admin/admin.php:957
+msgid "Custom URL for search results"
+msgstr ""
+
+#: inc/admin/admin.php:1003
+msgid ""
+"The SEOPress BOT scans links in you content to find errors (404...). We "
+"limit this search to the last 100 posts/pages/custom post types."
+msgstr ""
+"Links in je content worden gecontroleerd op 404 fouten. De zoekopdracht "
+"wordt beperkt tot de laatste 100 berichten en pagina's."
+
+#: inc/admin/admin.php:1005
+msgid "You can increase this value in the settings tab just above."
+msgstr "Je kunt deze waarde verhogen via de instellingen (tab) hierboven. "
+
+#: inc/admin/admin.php:1015
+msgid "Check our guide"
+msgstr "Bekijk onze gebruikershandleiding"
+
+#: inc/admin/admin.php:1016
+msgid "View scan results"
+msgstr "Bekijk resultaten van de scan"
+
+#: inc/admin/admin.php:1022
+msgid "<p>SEOPress BOT settings</p>"
+msgstr "SEOPress BOT instellingen"
+
+#: inc/admin/admin.php:1039
+msgid "<p>Local Business data type for Google.</p>"
+msgstr "<p>Laat je bedrijf zien op Google</p>"
+
+#: inc/admin/admin.php:1043
+msgid ""
+"You have to set an image in Knowledge Graph settings, otherwise, your Google "
+"Local Business data will not be valid."
+msgstr ""
+"Je dient een afbeelding in te stellen voordat Google de onderstaande "
+"instellingen overneemt."
+
+#: inc/admin/admin.php:1044
+msgid "Fix this!"
+msgstr "Los dit op!"
+
+#: inc/admin/admin.php:1062 inc/admin/admin.php:1066 inc/admin/admin.php:1090
+#: inc/admin/admin.php:1094 inc/admin/admin.php:1118 inc/admin/admin.php:1122
+#: inc/admin/admin.php:1146 inc/admin/admin.php:1150 inc/admin/admin.php:1173
+#: inc/admin/admin.php:1177 inc/admin/admin.php:1201 inc/admin/admin.php:1205
+#: inc/admin/admin.php:1262 inc/admin/admin.php:1266 inc/admin/admin.php:1297
+#: inc/admin/admin.php:1301 inc/admin/admin.php:1337 inc/admin/admin.php:1341
+#: inc/admin/admin.php:1394 inc/admin/admin.php:1398
+msgid "Click to disable this feature"
+msgstr ""
+
+#: inc/admin/admin.php:1063 inc/admin/admin.php:1065 inc/admin/admin.php:1091
+#: inc/admin/admin.php:1093 inc/admin/admin.php:1119 inc/admin/admin.php:1121
+#: inc/admin/admin.php:1147 inc/admin/admin.php:1149 inc/admin/admin.php:1174
+#: inc/admin/admin.php:1176 inc/admin/admin.php:1202 inc/admin/admin.php:1204
+#: inc/admin/admin.php:1263 inc/admin/admin.php:1265 inc/admin/admin.php:1298
+#: inc/admin/admin.php:1300 inc/admin/admin.php:1338 inc/admin/admin.php:1340
+#: inc/admin/admin.php:1395 inc/admin/admin.php:1397
+msgid "Click to enable this feature"
+msgstr ""
+
+#: inc/admin/admin.php:1074
+msgid "<p>Improve WooCommerce SEO</p>"
+msgstr "Verbeter je WooCommerce SEO"
+
+#: inc/admin/admin.php:1102
+msgid "<p>Improve Easy Digital Downloads SEO</p>"
+msgstr ""
+
+#: inc/admin/admin.php:1130
+msgid ""
+"<p>Dublin Core is a set of meta tags to describe your content.<br> These "
+"tags are automatically generated. Recognized by states / governements, they "
+"are used by directories, Bing, Baidu and Yandex.</p>"
+msgstr ""
+"<p>Met de Dublin Core  meta tags geef je extra informatie mee aan de bots "
+"van Bing, Baidu en Yandex.<br>"
+
+#: inc/admin/admin.php:1158
+#, fuzzy
+#| msgid ""
+#| "<p>Add Structured Data Types support, mark your content <br>and get "
+#| "better Google Search Results appearance</p>"
+msgid ""
+"<p>Add Structured Data Types support, mark your content and get better "
+"Google Search Results appearance</p>"
+msgstr ""
+"<p>Gestructureerde data types zorgen ervoor dat jouw zoekresultaten er beter "
+"uit zullen zien.<br>"
+
+#: inc/admin/admin.php:1185
+msgid ""
+"Configure your breadcrumbs, using schema.org markup, allowing it to appear "
+"in Google's search results."
+msgstr ""
+
+#: inc/admin/admin.php:1185
+msgid "Google developers website (new window)"
+msgstr ""
+
+#: inc/admin/admin.php:1185
+msgid "Lean more on Google developers website"
+msgstr ""
+
+#: inc/admin/admin.php:1210
+msgid ""
+"Copy and paste this function into your theme (eg: header.php) to enable your "
+"breadcrumbs:"
+msgstr "Deze optie is gedeactiveerd"
+
+#: inc/admin/admin.php:1214
+msgid ""
+"This function accepts 1 parameter: <strong>true / false</strong> for "
+"<strong>echo / return</strong>. Default: <strong>true</strong>."
+msgstr ""
+
+#: inc/admin/admin.php:1215
+#, fuzzy
+#| msgid ""
+#| "You can also use this shortcode in your content (post, page, post type...)"
+msgid ""
+"You can also use this shortcode in your content (post, page, post type...):"
+msgstr "Je kunt ook deze shortcode gebruiken:"
+
+#: inc/admin/admin.php:1221
+msgid "Check your site performance with Google Page Speed (beta)."
+msgstr "Controleer de snelheid van je website met Google Page Speed (beta)."
+
+#: inc/admin/admin.php:1224
+msgid ""
+"We recommend WP Rocket caching plugin to quickly and easily optimize your "
+"WordPress site. Starting from just $39."
+msgstr ""
+
+#: inc/admin/admin.php:1227
+msgid ""
+"Get an insightful audit of your website's quality for better performances "
+"with Dareboost."
+msgstr "Krijg meer snelheidstips via Dareboost."
+
+#: inc/admin/admin.php:1229
+msgid "Analyse homepage with Page Speed"
+msgstr "Analyseer de homepage met Page Speed"
+
+#: inc/admin/admin.php:1231
+msgid "Remove last analysis"
+msgstr "Verwijder de laatste analyses"
+
+#: inc/admin/admin.php:1233
+msgid "Send me this report by mail"
+msgstr "Verzend me dit rapport per e-mail"
+
+#: inc/admin/admin.php:1246
+msgid "Configure your virtual robots.txt file."
+msgstr ""
+"De robots.txt hebben wij al voor je ingesteld. Weet je zeker dat je deze nog "
+"wilt wijzigen?"
+
+#: inc/admin/admin.php:1271
+#, fuzzy
+#| msgid ""
+#| "THIS VIRTUAL FILE WILL NOT BYPASSED YOUR REAL ROBOTS.TXT FILE IF YOU HAVE "
+#| "ONE."
+msgid ""
+"THIS VIRTUAL FILE WILL NOT BYPASS YOUR REAL ROBOTS.TXT FILE IF YOU HAVE ONE."
+msgstr ""
+"Let op! Het wijzigen van je robots.txt bestand gaat volledig op eigen "
+"risico. "
+
+#: inc/admin/admin.php:1273
+msgid "View your robots.txt"
+msgstr "Bekijk je robots.txt"
+
+#: inc/admin/admin.php:1275 inc/admin/admin.php:1315
+msgid "Flush permalinks"
+msgstr ""
+
+#: inc/admin/admin.php:1281
+#, fuzzy
+#| msgid "Enable Google News Sitemap"
+msgid "<p>Enable your Google News Sitemap</p>"
+msgstr "Activeer de Google News Sitemap"
+
+#: inc/admin/admin.php:1306
+msgid ""
+"To view your sitemap, enable permalinks (not default one), and save settings "
+"to flush them."
+msgstr ""
+
+#: inc/admin/admin.php:1308
+msgid ""
+"We respect the rules of Google News: Only articles published during the "
+"previous two days, and, to a limit of 1000 articles, are visible in the "
+"sitemap."
+msgstr ""
+
+#: inc/admin/admin.php:1311
+#, fuzzy
+#| msgid "Link to your sitemap"
+msgid "View your sitemap"
+msgstr "Link naar je sitemap"
+
+#: inc/admin/admin.php:1313
+msgid "Ping Google manually"
+msgstr ""
+
+#: inc/admin/admin.php:1321
+msgid ""
+"Monitor 404 urls in your Dashboard. Crawlers (robots/spiders) will be "
+"automatically exclude (eg: Google Bot, Yahoo, Bing...)."
+msgstr ""
+
+#: inc/admin/admin.php:1346
+msgid "404 URLS are bad for:"
+msgstr ""
+
+#: inc/admin/admin.php:1349
+msgid "User experience"
+msgstr ""
+
+#: inc/admin/admin.php:1350
+#, fuzzy
+#| msgid "Performer name"
+msgid "Performances"
+msgstr "Wie treedt er op?"
+
+#: inc/admin/admin.php:1351
+msgid "Crawl budget allocated by Google"
+msgstr ""
+
+#: inc/admin/admin.php:1354
+msgid "All these reasons degrade your SEO AND your conversion."
+msgstr ""
+
+#: inc/admin/admin.php:1360
+msgid "Edit your htaccess file."
+msgstr "Pas je htaccess bestand aan."
+
+#: inc/admin/admin.php:1362
+msgid "SAVE YOUR HTACCESS FILE BEFORE EDIT!"
+msgstr "Sla je htaccess bestand op voor je gaat aanpassen"
+
+#: inc/admin/admin.php:1367
+msgid "Configure WordPress default feeds."
+msgstr "Configureer standaard WordPress feeds."
+
+#: inc/admin/admin.php:1372
+msgid ""
+"Check your backlinks with Majestic. You need to enter your own Majestic API "
+"key to use this feature."
+msgstr ""
+"Controleer je backlinks met Majestic. Voeg je Majestic API key om dit te "
+"activeren."
+
+#: inc/admin/admin.php:1373
+msgid "View your backlinks"
+msgstr "Bekijk je backlinks"
+
+#: inc/admin/admin.php:1378
+#, fuzzy
+#| msgid "Change this settings"
+msgid "Change the URL rewriting."
+msgstr "Wijzigen"
+
+#: inc/admin/admin.php:1406
+msgid ""
+"Connect your WordPress site with Google Analytics API and get statistics "
+"right in your Dashboard."
+msgstr ""
+"Verbind je website met de Google Analytics API en zie je statistieken "
+"rechtstreeks in je dashboard."
+
+#: inc/admin/admin.php:1416
+#, fuzzy
+#| msgid ""
+#| "Connect your WordPress site with Google Analytics API and get statistics "
+#| "right in your Dashboard."
+msgid ""
+"Watch our video guide to connect your WordPress site with Google Analytics "
+"API."
+msgstr ""
+"Verbind je website met de Google Analytics API en zie je statistieken "
+"rechtstreeks in je dashboard."
+
+#: inc/admin/admin.php:1421
+msgid "Track transactions in Google Analytics."
+msgstr "Track transacties via Google Analytics."
+
+#: inc/admin/admin.php:1484
+msgid "The higher the value, the more time it will take."
+msgstr "Hoe hoger de waarde, hoe lang het zal duren. "
+
+#: inc/admin/admin.php:1497 inc/admin/admin.php:1514
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/admin/admin.php:1535
+msgid ""
+"If the request exceeds x seconds of delay, the link will be considered as "
+"down"
+msgstr ""
+"Als het verzoek langer duurt dan x seconden, zal de link als niet "
+"toegankelijk worden gezien."
+
+#: inc/admin/admin.php:1664
+msgid "Monday"
+msgstr "Maandag"
+
+#: inc/admin/admin.php:1664
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: inc/admin/admin.php:1664
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: inc/admin/admin.php:1664
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: inc/admin/admin.php:1664
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: inc/admin/admin.php:1664
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: inc/admin/admin.php:1664
+msgid "Sunday"
+msgstr "Zondag"
+
+#: inc/admin/admin.php:1688
+msgid "Closed?"
+msgstr "Gesloten?"
+
+#: inc/admin/admin.php:1777 inc/admin/admin.php:1794 inc/admin/admin.php:1811
+msgid "noindex"
+msgstr "noindex"
+
+#: inc/admin/admin.php:1828 inc/admin/admin.php:1880
+msgid "Add OG:PRICE meta for product"
+msgstr "Voed OG:PRICE meta toe voor je product"
+
+#: inc/admin/admin.php:1845 inc/admin/admin.php:1897
+msgid "Add OG:CURRENCY meta for product"
+msgstr "Voeg OG:CURRENCY meta toe voor je product"
+
+#: inc/admin/admin.php:1862
+msgid "Remove WooCommerce meta generator"
+msgstr "Verwijder de WooCommerce meta generator"
+
+#: inc/admin/admin.php:1914
+msgid "Remove EDD meta generator"
+msgstr ""
+
+#: inc/admin/admin.php:1932
+msgid ""
+"Enable Dublin Core meta tags (dc.title, dc.description, dc.source, dc."
+"language, dc.relation, dc.subject)"
+msgstr "Activeer de Dublin Core Meta tags (aanbevolen)"
+
+#: inc/admin/admin.php:1950
+#, fuzzy
+#| msgid ""
+#| "Enable Structured Data Types metaboxe for your posts, pages and custom "
+#| "post types"
+msgid ""
+"Enable Structured Data Types metabox for your posts, pages and custom post "
+"types"
+msgstr "Activeer de gestructureerde data types (aanbevolen)"
+
+#: inc/admin/admin.php:1996
+msgid ""
+"Files must be raster, such as .jpg, .png, or .gif, not vector, such as .svg."
+msgstr "Het logo moet een .jpg, png of gif zijn"
+
+#: inc/admin/admin.php:1999
+msgid "Animation is not allowed."
+msgstr "Animaties zijn niet toegestaan."
+
+#: inc/admin/admin.php:2002
+msgid "Use full wordmark or full logo; not an icon."
+msgstr "Toon je echte logo"
+
+#: inc/admin/admin.php:2005
+msgid "The graphic must be legible on a white or light background"
+msgstr "Gebruik een witte (of lichte) achtergrond"
+
+#: inc/admin/admin.php:2008
+msgid "The logo should be a rectangle, not a square."
+msgstr "Je logo is rechthoekig"
+
+#: inc/admin/admin.php:2011
+msgid ""
+"The logo should fit in a 60x600px rectangle., and either be exactly 60px "
+"high (preferred), or exactly 600px wide. <br/>For example, 450x45px would "
+"not be acceptable, even though it fits in the 600x60px rectangle."
+msgstr "Kies voor 60px hoog (aanbevolen) of 600px breed"
+
+#: inc/admin/admin.php:2014
+msgid ""
+"The text in word-based logos should be at most 48px tall and centered "
+"vertically against the 60px image height. Additional space should be added "
+"to pad the height to 60px."
+msgstr "Gebruik niet teveel tekst in de afbeelding"
+
+#: inc/admin/admin.php:2017
+msgid ""
+"Logos with a solid background should include 6px minimum padding around the "
+"wordmark."
+msgstr "Hou ook een beetje marge over"
+
+#: inc/admin/admin.php:2021
+msgid "Learn more"
+msgstr "Lees meer"
+
+#: inc/admin/admin.php:2054
+msgid "-"
+msgstr ""
+
+#: inc/admin/admin.php:2055
+msgid "–"
+msgstr ""
+
+#: inc/admin/admin.php:2056
+msgid ">"
+msgstr ""
+
+#: inc/admin/admin.php:2057
+msgid "<"
+msgstr ""
+
+#: inc/admin/admin.php:2058
+msgid "|"
+msgstr ""
+
+#: inc/admin/admin.php:2069
+msgid "Customize breadcrumbs separator with a hook"
+msgstr ""
+
+#: inc/admin/admin.php:2077 inc/functions/options-breadcrumbs.php:101
+msgid "Home"
+msgstr "Home"
+
+#: inc/admin/admin.php:2088 inc/functions/options-breadcrumbs.php:107
+msgid "404 error"
+msgstr "404 fout"
+
+#: inc/admin/admin.php:2099 inc/functions/options-breadcrumbs.php:113
+msgid "Search results for: "
+msgstr "Zoekresultaten voor:"
+
+#: inc/admin/admin.php:2110 inc/functions/options-breadcrumbs.php:119
+msgid "No results"
+msgstr "Geen resultaten"
+
+#: inc/admin/admin.php:2126
+msgid ""
+"My theme / Bootstrap is already displaying a separator in my breadcrumbs"
+msgstr ""
+
+#: inc/admin/admin.php:2147 inc/admin/admin.php:2161
+msgid "Enable robots.txt virtual file"
+msgstr "Schakel virtueel bestand robots.txt in"
+
+#: inc/admin/admin.php:2172 inc/admin/admin.php:2423
+msgid "Access not allowed."
+msgstr "Niet toegestaan."
+
+#: inc/admin/admin.php:2198
+msgid "Block SemrushBot"
+msgstr "Blokkeer SemrushBot"
+
+#: inc/admin/admin.php:2201
+msgid "Block MajesticSEOBot"
+msgstr "Blokkeer MajesticSEOBot"
+
+#: inc/admin/admin.php:2203
+msgid "Link to your sitemap"
+msgstr "Link naar je sitemap"
+
+#: inc/admin/admin.php:2206
+msgid "Allow Google AdSense bot"
+msgstr "Sta Google AdSense bot toe"
+
+#: inc/admin/admin.php:2209
+msgid "Allow Google Image bot"
+msgstr "Sta Google Image bot toe"
+
+#: inc/admin/admin.php:2213
+msgid "Default WP rules"
+msgstr "Standaard WP instellingen"
+
+#: inc/admin/admin.php:2225
+#, fuzzy
+#| msgid "This is your robots.txt file!"
+msgid "Guide to edit your robots.txt file - new window"
+msgstr "Dit is je robots.txt bestand"
+
+#: inc/admin/admin.php:2308
+msgid "Enable 404 monitoring"
+msgstr "Activeer (aanbevolen)"
+
+#: inc/admin/admin.php:2310
+msgid "View your 404 / 301"
+msgstr "Bekijk alle 404 / 301 meldingen"
+
+#: inc/admin/admin.php:2327
+msgid ""
+"Automatically delete 404 after 30 days (useful if you have a lot of 404)"
+msgstr "Verwijder automatisch alle 404 meldingen (na 30 dagen)"
+
+#: inc/admin/admin.php:2346
+#, fuzzy
+#| msgid "Home"
+msgid "Homepage"
+msgstr "Home"
+
+#: inc/admin/admin.php:2349
+msgid "Custom URL"
+msgstr ""
+
+#: inc/admin/admin.php:2377
+#, fuzzy
+#| msgid "301 redirection"
+msgid "301 redirect"
+msgstr "301 redirection"
+
+#: inc/admin/admin.php:2380
+#, fuzzy
+#| msgid "301 redirection"
+msgid "302 redirect"
+msgstr "301 redirection"
+
+#: inc/admin/admin.php:2383
+#, fuzzy
+#| msgid "301 redirection"
+msgid "307 redirect"
+msgstr "301 redirection"
+
+#: inc/admin/admin.php:2401
+msgid "1 mail each time a new 404 is created"
+msgstr "Mail mij wanneer er een nieuwe 404 melding is gemaakt"
+
+#: inc/admin/admin.php:2426
+msgid ""
+"Multisite is enabled, go to network SEO settings to manage your .htaccess "
+"file."
+msgstr ""
+"Multisite is ingeschakeld, ga naar je netwerk SEO instellingen om je ."
+"htaccess bestand te beheren."
+
+#: inc/admin/admin.php:2444
+msgid "Block directory browsing"
+msgstr "Browsen door de mappen blokkeren"
+
+#: inc/admin/admin.php:2449
+msgid "Protect wp-config.php file"
+msgstr "Bescherm wp-config.php bestand"
+
+#: inc/admin/admin.php:2451
+msgid "301 redirection"
+msgstr "301 redirection"
+
+#: inc/admin/admin.php:2455
+msgid "Saves htaccess changes"
+msgstr "Sla htaccess aanpassingen op"
+
+#: inc/admin/admin.php:2458
+msgid "You don't have an htaccess file on your server."
+msgstr "Je hebt geen htaccess bestand op je server"
+
+#: inc/admin/admin.php:2461
+msgid "Your server is running Nginx, you don't have htaccess file."
+msgstr "Je server loopt op Nginx, je hebt geen htaccess bestand."
+
+#: inc/admin/admin.php:2478 inc/admin/admin.php:2493
+msgid "HTML tags allowed: strong, em, br, a href"
+msgstr "HTML tags zijn toegestaan: strong, em, br, a href"
+
+#: inc/admin/admin.php:2480 inc/admin/admin.php:2494
+#, php-format
+msgid ""
+"Dynamic variables: %%sitetitle%%, %%tagline%%, %%post_author%%, "
+"%%post_permalink%%"
+msgstr ""
+"Dynamische variabelen: %%sitetitle %%, %%slogan %%, %% post_author %%, %% "
+"post_permalink %%"
+
+#: inc/admin/admin.php:2507
+msgid "Remove feed link in source code"
+msgstr "Verwijder feed link in je broncode"
+
+#: inc/admin/admin.php:2524
+msgid "Remove feed link in source code (default WordPress RSS feed)"
+msgstr "Verwijder feed link in broncode (standaard WordPress RSS feed)"
+
+#: inc/admin/admin.php:2541
+msgid ""
+"Remove feed link in source code (author, categories, custom taxonomies, "
+"custom post type, comments feed for a single post...)"
+msgstr ""
+"Verwijder feed link in broncode (auteur, categorieën, aangepaste taxonomie, "
+"aangepast berichttype, reacties, voor enkel bericht)"
+
+#: inc/admin/admin.php:2558
+msgid ""
+"Disable all WordPress RSS feeds (all feeds will no longer be accessible)"
+msgstr ""
+"Schakel alle WordPress RSS feeds uit (de feeds zijn hierna niet meer "
+"toegankelijk)"
+
+#: inc/admin/admin.php:2581
+msgid "Search results base, eg: \"search-results\" without quotes"
+msgstr ""
+
+#: inc/admin/admin.php:2583
+msgid "Flush your permalinks each time you edit this setting."
+msgstr ""
+
+#: inc/admin/admin.php:2683
+msgid ""
+"To sign in with Google Analytics, you have to set a Client and Secret ID in "
+"the fields below:"
+msgstr ""
+"Om je Google Analytics te tonen op je dashboard vul je de volgende gegevens "
+"in:"
+
+#: inc/admin/admin.php:2717
+#, fuzzy
+#| msgid "Connect with Google Analytics API"
+msgid "Connect with Google Analytics"
+msgstr "Verbinden met Google Analytics API"
+
+#: inc/admin/admin.php:2737
+msgid "Log out from Google"
+msgstr ""
+
+#: inc/admin/admin.php:2745
+msgid ""
+"Your Google Analytics view is locked. Log out from Google to unlocked it."
+msgstr ""
+"Je Google Analytics weergave is vergrendeld. Log uit bij Google om het te "
+"ontgrendelen."
+
+#: inc/admin/admin.php:2764
+msgid "Lock selection?"
+msgstr "Keuze vergrendelen?"
+
+#: inc/admin/admin.php:2785
+#, fuzzy
+#| msgid ""
+#| "Connect your WordPress site with Google Analytics API and get statistics "
+#| "right in your Dashboard."
+msgid "Guide to connect your WordPress site with Google Analytics - new window"
+msgstr ""
+"Verbind je website met de Google Analytics API en zie je statistieken "
+"rechtstreeks in je dashboard."
+
+#: inc/admin/admin.php:2849
+msgid ""
+"Hook to filter Structured data types metaboxe call by post type - new window"
+msgstr ""
+
+#: inc/admin/ajax.php:81
+#, fuzzy
+#| msgid "Your license key expired on %s."
+msgid "Your domain name expires soon!"
+msgstr "Je licentiecode verloopt op %s."
+
+#: inc/admin/ajax.php:81
+msgid ""
+"Howdy admin! <br>Your domain name is about to expires. Don't forget to renew "
+"it ASAP!"
+msgstr ""
+
+#: inc/admin/ajax.php:112 inc/admin/ajax.php:139 inc/admin/ajax.php:821
+#: inc/admin/updater/plugin-licence.php:134
+#: inc/admin/updater/plugin-licence.php:180
+#: inc/admin/updater/plugin-licence.php:242
+msgid "An error occurred, please try again."
+msgstr "Er is een fout opgetreden, probeer het opnieuw."
+
+#: inc/admin/ajax.php:372 inc/admin/ajax.php:400
+#: inc/admin/dashboard-google-analytics.php:58
+#: inc/admin/dashboard-google-analytics.php:154
+msgid "Sessions"
+msgstr "Sessies"
+
+#: inc/admin/ajax.php:376 inc/admin/dashboard-google-analytics.php:64
+#: inc/admin/dashboard-google-analytics.php:157
+msgid "Users"
+msgstr "Gebruikers"
+
+#: inc/admin/ajax.php:380 inc/admin/dashboard-google-analytics.php:70
+msgid "Page Views"
+msgstr "Paginaweergaven"
+
+#: inc/admin/ajax.php:384
+msgid "Page Views Per Session"
+msgstr "Paginaweergaven per sessie"
+
+#: inc/admin/ajax.php:388
+msgid "Average Session Duration"
+msgstr "Duur gemiddelde sessie"
+
+#: inc/admin/ajax.php:392
+msgid "Bounce Rate"
+msgstr "Bounce rate"
+
+#: inc/admin/ajax.php:396 inc/admin/dashboard-google-analytics.php:172
+msgid "New Sessions"
+msgstr "Nieuwe sessies"
+
+#: inc/admin/ajax.php:618
+msgid "Page Speed report"
+msgstr ""
+
+#: inc/admin/ajax.php:640 inc/admin/report-page-speed.php:46
+msgid "URL: "
+msgstr "URL:"
+
+#: inc/admin/ajax.php:641 inc/admin/report-page-speed.php:47
+msgid "Title: "
+msgstr "Titel:"
+
+#: inc/admin/ajax.php:645
+msgid "Your Google Page Speed Score"
+msgstr "Jouw Google Page Speed score"
+
+#: inc/admin/ajax.php:648 inc/admin/report-page-speed.php:71
+msgid "Suggestions"
+msgstr "Suggesties"
+
+#: inc/admin/ajax.php:770
+msgid "Impossible to open file: "
+msgstr "Onmogelijk om het bestand te openen:"
+
+#: inc/admin/ajax.php:775
+msgid "Impossible to write in file: "
+msgstr "Onmogelijk om het bestand te bewerken:"
+
+#: inc/admin/ajax.php:779
+msgid "htaccess successfully updated!"
+msgstr "htaccess is succesvol bijgewerkt!"
+
+#: inc/admin/ajax.php:784
+msgid "Your htaccess is not writable."
+msgstr "Je htaccess bestand is niet schrijfbaar."
+
+#: inc/admin/backlinks.php:17 inc/admin/bot.php:17
+msgid "Item Links"
+msgstr "Links items"
+
+#: inc/admin/backlinks.php:18 inc/admin/bot.php:18
+msgid "Parent Link:"
+msgstr "Bovenliggende link:"
+
+#: inc/admin/backlinks.php:19
+msgid "All Backlinks"
+msgstr "Alle backlinks"
+
+#: inc/admin/backlinks.php:20
+msgid "Add New backlink"
+msgstr "Voeg nieuwe backlink toe"
+
+#: inc/admin/backlinks.php:21
+msgid "Add backlink"
+msgstr "Voeg backlink toe"
+
+#: inc/admin/backlinks.php:22
+msgid "New backlink"
+msgstr "Nieuwe backlink"
+
+#: inc/admin/backlinks.php:23
+msgid "Edit backlink"
+msgstr "Pas backlink aan"
+
+#: inc/admin/backlinks.php:24
+msgid "Update backlink"
+msgstr "Update backlink"
+
+#: inc/admin/backlinks.php:25
+msgid "View backlink"
+msgstr "Bekijk backlink"
+
+#: inc/admin/backlinks.php:26
+msgid "Search backlink"
+msgstr "Zoek backlink"
+
+#: inc/admin/backlinks.php:27 inc/admin/bot.php:27
+#: inc/admin/redirections.php:26
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: inc/admin/backlinks.php:28 inc/admin/bot.php:28
+#: inc/admin/redirections.php:27
+msgid "Not found in Trash"
+msgstr "Niet gevonden in de prullenbak"
+
+#: inc/admin/backlinks.php:29 inc/admin/bot.php:29
+#: inc/admin/redirections.php:28
+msgid "Featured Image"
+msgstr "Uitgelichte afbeelding"
+
+#: inc/admin/backlinks.php:30 inc/admin/bot.php:30
+#: inc/admin/redirections.php:29
+msgid "Set featured image"
+msgstr "Stel uitgelichte afbeelding in"
+
+#: inc/admin/backlinks.php:31 inc/admin/bot.php:31
+#: inc/admin/redirections.php:30
+msgid "Remove featured image"
+msgstr "Verwijder uitgelichte afbeelding"
+
+#: inc/admin/backlinks.php:32 inc/admin/bot.php:32
+#: inc/admin/redirections.php:31
+msgid "Use as featured image"
+msgstr "Gebruik een uitgelichte afbeelding"
+
+#: inc/admin/backlinks.php:33 inc/admin/bot.php:33
+#: inc/admin/redirections.php:32
+msgid "Insert into item"
+msgstr "Voeg toe aan item"
+
+#: inc/admin/backlinks.php:34 inc/admin/bot.php:34
+#: inc/admin/redirections.php:33
+msgid "Uploaded to this item"
+msgstr "Geupload naar dit item"
+
+#: inc/admin/backlinks.php:35
+msgid "Backlinks list"
+msgstr "Lijst backlinks"
+
+#: inc/admin/backlinks.php:36
+msgid "Backlinks list navigation"
+msgstr "Navigatie lijst backlinks"
+
+#: inc/admin/backlinks.php:37
+msgid "Filter backlinks list"
+msgstr "Filter je lijst met backlinks"
+
+#: inc/admin/backlinks.php:41
+msgid "List of backlinks"
+msgstr "Lijst van backlinks"
+
+#: inc/admin/backlinks.php:86
+msgid "Check your backlinks"
+msgstr "Controleer je backlinks"
+
+#: inc/admin/backlinks.php:86 inc/functions/bot/seopress-bot.php:355
+msgid "Export CSV"
+msgstr ""
+
+#: inc/admin/backlinks.php:92
+msgid "Enter your Majestic key"
+msgstr "Voer je Majestic key in"
+
+#: inc/admin/backlinks.php:106
+msgid "Enter an URL here"
+msgstr "Voer hier je URL in"
+
+#: inc/admin/backlinks.php:126 inc/admin/backlinks.php:129
+#: inc/admin/bot.php:106 inc/admin/bot.php:109
+msgid " updated."
+msgstr ""
+
+#: inc/admin/backlinks.php:127 inc/admin/bot.php:107
+#: inc/admin/redirections.php:280
+msgid "Custom field updated."
+msgstr ""
+
+#: inc/admin/backlinks.php:128 inc/admin/bot.php:108
+#: inc/admin/redirections.php:281
+msgid "Custom field deleted."
+msgstr ""
+
+#: inc/admin/backlinks.php:130 inc/admin/bot.php:110
+#: inc/admin/redirections.php:283
+#, php-format
+msgid " restored to revision from %s"
+msgstr ""
+
+#: inc/admin/backlinks.php:131 inc/admin/bot.php:111
+msgid " published."
+msgstr ""
+
+#: inc/admin/backlinks.php:132 inc/admin/bot.php:112
+#, fuzzy
+#| msgid "Page Speed"
+msgid "Page saved."
+msgstr "Snelheid"
+
+#: inc/admin/backlinks.php:133 inc/admin/bot.php:113
+#: inc/admin/redirections.php:286
+msgid " submitted."
+msgstr ""
+
+#: inc/admin/backlinks.php:134 inc/admin/bot.php:114
+#: inc/admin/redirections.php:287
+#, php-format
+msgid " scheduled for: <strong>%1$s</strong>. "
+msgstr ""
+
+#: inc/admin/backlinks.php:134 inc/admin/bot.php:114
+#: inc/admin/redirections.php:287
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: inc/admin/backlinks.php:135 inc/admin/bot.php:115
+#: inc/admin/redirections.php:288
+msgid " draft updated."
+msgstr ""
+
+#: inc/admin/backlinks.php:165
+msgid "Anchor Text"
+msgstr "Anchor tekst"
+
+#: inc/admin/backlinks.php:166
+msgid "Domain CF"
+msgstr "Domein CF"
+
+#: inc/admin/backlinks.php:167
+msgid "Domain TF"
+msgstr "Domein TF"
+
+#: inc/admin/backlinks.php:168
+msgid "URL CF"
+msgstr "URL CF"
+
+#: inc/admin/backlinks.php:169
+msgid "URL TF"
+msgstr "URL TF"
+
+#: inc/admin/backlinks.php:170
+msgid "First indexed"
+msgstr "Eerst geïndexeerd "
+
+#: inc/admin/backlinks.php:171
+msgid "Last seen"
+msgstr "Laatst gezien"
+
+#: inc/admin/backlinks.php:179
+msgid "Source URL"
+msgstr "Bron van de URL"
+
+#: inc/admin/backlinks.php:179
+msgid "Open link in a new window"
+msgstr "Open de link in een nieuw venster"
+
+#: inc/admin/backlinks.php:179
+msgid "Target URL"
+msgstr "Doel URL"
+
+#: inc/admin/bot.php:19
+msgid "All Broken links"
+msgstr "Alle gebroken links"
+
+#: inc/admin/bot.php:20
+msgid "Add New Link"
+msgstr "Voeg nieuwe link toe"
+
+#: inc/admin/bot.php:21
+msgid "Add link"
+msgstr "Voeg link toe"
+
+#: inc/admin/bot.php:22
+msgid "New link"
+msgstr "Nieuwe link"
+
+#: inc/admin/bot.php:23
+msgid "Edit link"
+msgstr "Pas link aan"
+
+#: inc/admin/bot.php:24
+msgid "Update Link"
+msgstr "Update link"
+
+#: inc/admin/bot.php:25
+msgid "View Link"
+msgstr "Bekijk link"
+
+#: inc/admin/bot.php:26
+msgid "Search Link"
+msgstr "Zoek link"
+
+#: inc/admin/bot.php:35 inc/admin/redirections.php:34
+msgid "Redirections list"
+msgstr "Lijst met redirects"
+
+#: inc/admin/bot.php:36 inc/admin/redirections.php:35
+msgid "Redirections list navigation"
+msgstr "Navigatie lijst redirects"
+
+#: inc/admin/bot.php:37 inc/admin/redirections.php:36
+msgid "Filter redirections list"
+msgstr "Filter je lijst met redirects"
+
+#: inc/admin/bot.php:41
+msgid "List of broken links"
+msgstr "Lijst van alle gebroken links"
+
+#: inc/admin/bot.php:79
+msgid "Edit source to fix link"
+msgstr ""
+
+#: inc/admin/bot.php:144
+msgid "Scan broken links"
+msgstr "Zoek naar gebroken links"
+
+#: inc/admin/bot.php:159
+msgid "Broken link"
+msgstr ""
+
+#: inc/admin/bot.php:160 inc/admin/redirections.php:321
+msgid "Count"
+msgstr "Aantal"
+
+#: inc/admin/bot.php:161
+msgid "Status"
+msgstr "Status"
+
+#: inc/admin/bot.php:162 inc/admin/redirections.php:323
+msgid "Type"
+msgstr "Type"
+
+#: inc/admin/bot.php:163
+msgid "Anchor text"
+msgstr "Anchor tekst"
+
+#: inc/admin/bot.php:164
+msgid "Source"
+msgstr "Bron"
+
+#: inc/admin/dashboard-google-analytics.php:76
+msgid "Page view / session"
+msgstr "Paginaweergaven / sessies"
+
+#: inc/admin/dashboard-google-analytics.php:82
+#: inc/admin/dashboard-google-analytics.php:166
+msgid "Average session duration"
+msgstr "Duur gemiddelde sessie"
+
+#: inc/admin/dashboard-google-analytics.php:88
+#: inc/admin/dashboard-google-analytics.php:169
+msgid "Bounce rate"
+msgstr "Bounce rate"
+
+#: inc/admin/dashboard-google-analytics.php:94
+msgid "New sessions"
+msgstr "Nieuwe sessies"
+
+#: inc/admin/dashboard-google-analytics.php:98
+msgid "You need to login to Google Analytics"
+msgstr "Log in bij Google Analytics"
+
+#: inc/admin/dashboard-google-analytics.php:99
+msgid "Authenticate"
+msgstr "Legitimeer"
+
+#: inc/admin/dashboard-google-analytics.php:120
+msgid "Period"
+msgstr "Periode"
+
+#: inc/admin/dashboard-google-analytics.php:125
+msgid "Today"
+msgstr "Vandaag"
+
+#: inc/admin/dashboard-google-analytics.php:128
+msgid "Yesterday"
+msgstr "Gisteren"
+
+#: inc/admin/dashboard-google-analytics.php:131
+msgid "7 days ago"
+msgstr "7 dagen geleden"
+
+#: inc/admin/dashboard-google-analytics.php:134
+msgid "30 days ago"
+msgstr "30 dagen geleden"
+
+#: inc/admin/dashboard-google-analytics.php:137
+msgid "90 days ago"
+msgstr "90 dagen geleden"
+
+#: inc/admin/dashboard-google-analytics.php:140
+msgid "180 days ago"
+msgstr "180 dagen geleden"
+
+#: inc/admin/dashboard-google-analytics.php:143
+msgid "360 days ago"
+msgstr "360 dagen geleden"
+
+#: inc/admin/dashboard-google-analytics.php:149
+msgid "Stats"
+msgstr "Statistieken"
+
+#: inc/admin/dashboard-google-analytics.php:160
+msgid "Page views"
+msgstr "Paginaweergaven"
+
+#: inc/admin/dashboard-google-analytics.php:163
+msgid "Page views per session"
+msgstr "Paginaweergaven per sessie"
+
+#: inc/admin/redirections.php:12 inc/admin/redirections.php:13
+#: inc/admin/redirections.php:14 inc/admin/redirections.php:15
+msgid "404 / 301"
+msgstr "404 / 301"
+
+#: inc/admin/redirections.php:16
+msgid "Item Archives"
+msgstr "Archief items"
+
+#: inc/admin/redirections.php:17
+msgid "Parent Item:"
+msgstr "Bovenliggend item:"
+
+#: inc/admin/redirections.php:18
+msgid "All 404 / 301"
+msgstr "alle 404 / 301"
+
+#: inc/admin/redirections.php:19
+msgid "Add New redirection"
+msgstr "Voeg nieuwe re-direct toe"
+
+#: inc/admin/redirections.php:20
+msgid "Add redirection"
+msgstr "Voeg nieuwe re-direct toe"
+
+#: inc/admin/redirections.php:21
+msgid "New redirection"
+msgstr "Voeg nieuwe re-direct toe"
+
+#: inc/admin/redirections.php:22
+msgid "Edit redirection"
+msgstr "Bewerk re-direct"
+
+#: inc/admin/redirections.php:23
+msgid "Update redirection"
+msgstr "Update re-direct"
+
+#: inc/admin/redirections.php:24
+msgid "View redirection"
+msgstr "Bekijk re-direct"
+
+#: inc/admin/redirections.php:25
+msgid "Search redirection"
+msgstr "Zoek redirect"
+
+#: inc/admin/redirections.php:40
+msgid "Monitoring 404"
+msgstr "Bekijk 404 fouten"
+
+#: inc/admin/redirections.php:69
+msgid "Import your redirects"
+msgstr "Importeer re-directs"
+
+#: inc/admin/redirections.php:72
+msgid "Export your redirects"
+msgstr "Exporteer jouw re-directs"
+
+#: inc/admin/redirections.php:85 inc/admin/redirections.php:274
+msgid "Test redirection"
+msgstr "Test redirect"
+
+#: inc/admin/redirections.php:104
+msgid "Show All"
+msgstr "Bekijk alles"
+
+#: inc/admin/redirections.php:111
+msgid "All status"
+msgstr ""
+
+#: inc/admin/redirections.php:178
+msgid "Enable redirection"
+msgstr "Schakel redirects in"
+
+#: inc/admin/redirections.php:214
+msgid "Disable redirection"
+msgstr "Schakel redirects uit"
+
+#: inc/admin/redirections.php:253
+msgid "Enter the old URL here without domain name"
+msgstr "Vul hier de oude URL in - zonder de domeinnaam en /"
+
+#: inc/admin/redirections.php:279 inc/admin/redirections.php:282
+#, php-format
+msgid " updated. %s"
+msgstr ""
+
+#: inc/admin/redirections.php:284
+#, php-format
+msgid " published. %s"
+msgstr ""
+
+#: inc/admin/redirections.php:285
+#, fuzzy
+#| msgid "Redirections"
+msgid "Redirection saved."
+msgstr "Re-directs"
+
+#: inc/admin/redirections.php:322
+msgid "Enable?"
+msgstr "Re-direct plaatsen?"
+
+#: inc/admin/redirections.php:324
+msgid "URL redirect"
+msgstr "URL omleiding"
+
+#: inc/admin/redirections.php:640
+msgid "404 alert"
+msgstr ""
+
+#: inc/admin/redirections.php:658
+msgid ""
+"You are receiving this email because a new 404 error has been logged on your "
+"site. See below:"
+msgstr ""
+
+#: inc/admin/report-page-speed.php:27
+msgid "Google Page Speed Score"
+msgstr "Google Page Speed score"
+
+#: inc/admin/report-page-speed.php:58
+msgid "Screenshot"
+msgstr "Screenshot"
+
+#: inc/admin/report-page-speed.php:142
+msgid "Ressources stats (beta)"
+msgstr "Statistieken ressources (beta)"
+
+#: inc/admin/report-page-speed.php:155
+msgid "Total (in Kbytes): "
+msgstr "Totaal (in Kbytes): "
+
+#: inc/admin/report-page-speed.php:156
+msgid "HTML (in Kbytes): "
+msgstr "HTML (in Kbytes): "
+
+#: inc/admin/report-page-speed.php:157
+msgid "CSS (in Kbytes): "
+msgstr "CSS (in Kbytes): "
+
+#: inc/admin/report-page-speed.php:158
+msgid "Images (in Kbytes): "
+msgstr "Afbeeldingen (in Kbytes):"
+
+#: inc/admin/report-page-speed.php:159
+msgid "JS (in Kbytes): "
+msgstr "JS (in Kbytes): "
+
+#: inc/admin/report-page-speed.php:160
+msgid "Others (in Kbytes): "
+msgstr "Anderen (in Kbytes): "
+
+#: inc/admin/report-page-speed.php:169
+msgid "Types"
+msgstr "Types"
+
+#: inc/admin/report-page-speed.php:169
+msgid "%"
+msgstr "%"
+
+#: inc/admin/report-page-speed.php:170
+msgid "HTML"
+msgstr "HTML"
+
+#: inc/admin/report-page-speed.php:171
+msgid "CSS"
+msgstr "CSS"
+
+#: inc/admin/report-page-speed.php:172
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: inc/admin/report-page-speed.php:173
+msgid "JS"
+msgstr "JS"
+
+#: inc/admin/report-page-speed.php:174
+msgid "Others"
+msgstr "Anderen"
+
+#: inc/admin/report-page-speed.php:191
+msgid ""
+"We can't retrieve your Google Page Speed. Make sure your site is accessible "
+"from everyone, and try again."
+msgstr ""
+"We kunnen je Google Page Speed niet ophalen. Zorg ervoor dat je website "
+"toegankelijk is voor iedereen en probeer het opnieuw."
+
+#: inc/admin/updater/plugin-licence.php:6
+msgid "License"
+msgstr "Licentie"
+
+#: inc/admin/updater/plugin-licence.php:24
+msgid "Plugin License Options"
+msgstr "Opties plugin licentie"
+
+#: inc/admin/updater/plugin-licence.php:37
+msgid "The license key is used to access automatic updates and support."
+msgstr ""
+"De licentiecode is gebruikt om automatisch updates in te schakelen en "
+"support."
+
+#: inc/admin/updater/plugin-licence.php:39
+msgid ""
+"Trouble to activate your license key? Do it manually by adding your website "
+"to your SEOPress.org account or click Reset your license."
+msgstr ""
+
+#: inc/admin/updater/plugin-licence.php:40
+msgid "Activate manually"
+msgstr "Activeer manueel"
+
+#: inc/admin/updater/plugin-licence.php:41
+msgid "Reset your license"
+msgstr "Reset je licentie"
+
+#: inc/admin/updater/plugin-licence.php:47
+msgid "License Key"
+msgstr "Licentie sleutel"
+
+#: inc/admin/updater/plugin-licence.php:51
+msgid "Enter your license key"
+msgstr "Voer je licentiecode in"
+
+#: inc/admin/updater/plugin-licence.php:57
+#: inc/admin/updater/plugin-licence.php:67
+msgid "Activate License"
+msgstr "Activeer je licentie"
+
+#: inc/admin/updater/plugin-licence.php:61
+msgid "active"
+msgstr "actief"
+
+#: inc/admin/updater/plugin-licence.php:63
+msgid "Deactivate License"
+msgstr "Deactiveer je licentie"
+
+#: inc/admin/updater/plugin-licence.php:147
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Je licentiecode verloopt op %s."
+
+#: inc/admin/updater/plugin-licence.php:154
+msgid "Your license key has been disabled."
+msgstr "Je licentie is uitgeschakeld."
+
+#: inc/admin/updater/plugin-licence.php:159
+msgid "Invalid license."
+msgstr "Ongeldige licentie."
+
+#: inc/admin/updater/plugin-licence.php:165
+msgid "Your license is not active for this URL."
+msgstr "Je licentie is niet actief voor deze URL."
+
+#: inc/admin/updater/plugin-licence.php:170
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Dit lijkt een ongeldige licentiecode voor %s"
+
+#: inc/admin/updater/plugin-licence.php:175
+msgid "Your license key has reached its activation limit."
+msgstr "Je licentiecode heeft het maximum aan activaties bereikt."
+
+#: inc/admin/updater/plugin-updater.php:403
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: inc/admin/updater/plugin-updater.php:403
+msgid "Error"
+msgstr ""
+
+#: inc/functions/bot/seopress-bot.php:275
+msgid "SEOPress BOT"
+msgstr "BOT"
+
+#: inc/functions/bot/seopress-bot.php:275
+msgid "BOT"
+msgstr "BOT"
+
+#: inc/functions/bot/seopress-bot.php:326
+msgid "Scan"
+msgstr "Scan"
+
+#: inc/functions/bot/seopress-bot.php:327 seopress-pro.php:391
+msgid "Settings"
+msgstr "Instellingen"
+
+#: inc/functions/bot/seopress-bot.php:345
+msgid "Latest scan: "
+msgstr "Laatste scan:"
+
+#: inc/functions/bot/seopress-bot.php:348
+msgid "Links found: "
+msgstr "Links gevonden:"
+
+#: inc/functions/bot/seopress-bot.php:362
+msgid "No scan"
+msgstr "Geen scan"
+
+#: inc/functions/bot/seopress-bot.php:369
+msgid ""
+"Scan in progress. Please be patient as this may take several minutes to "
+"complete depending on the amount of content."
+msgstr ""
+"Bezig met scannen. Even geduld, dit kan enkele minuten duren (afhankelijk "
+"van de hoeveelheid inhoud)."
+
+#: inc/functions/bot/seopress-bot.php:369
+msgid "Loading..."
+msgstr "Laden..."
+
+#: inc/functions/bot/seopress-bot.php:371
+#, php-format
+msgid "Currently on step %d of %d"
+msgstr "Momenteel op stap %de of %de"
+
+#: inc/functions/bot/seopress-bot.php:402
+msgid "Request the Bot"
+msgstr "Scan jouw website"
+
+#: inc/functions/bot/seopress-bot.php:433
+msgid "The Scan is complete"
+msgstr "De scan is klaar"
+
+#: inc/functions/bot/seopress-bot.php:434
+msgid "Rescan?"
+msgstr "Opnieuw scannen?"
+
+#: inc/functions/bot/seopress-bot.php:434
+#, fuzzy
+#| msgid "Rescan?"
+msgid "Rescan"
+msgstr "Opnieuw scannen?"
+
+#: inc/functions/options-breadcrumbs.php:173
+msgid "Attachments"
+msgstr "Bijlagen"
+
+#: inc/functions/options-breadcrumbs.php:355
+msgid "Author: "
+msgstr "Auteur:"
+
+#: inc/functions/options-breadcrumbs.php:439
+msgid "Page "
+msgstr "Pagina"
+
+#: inc/functions/options-rss.php:62
+msgid "No feed available."
+msgstr "Geen feed beschikbaar."
+
+#: seopress-pro.php:368
+msgid "Please enable <strong>SEOPress</strong> in order to use SEOPress PRO."
+msgstr "Zet SEOPress aan om SEOPress Pro te activeren."
+
+#: seopress-pro.php:369
+msgid "Enable / Download now!"
+msgstr "Schakel in / download nu!"
+
+#: seopress-pro.php:392
+msgid "SEOPress.org"
+msgstr "SEOPress.org"
+
+#~ msgid ""
+#~ "Discourage search engines from indexing this site is <strong>ON!</strong> "
+#~ "None of the following settings will be applied."
+#~ msgstr ""
+#~ "Voorkom dat Google je website indexeert <strong>AAN!</strong> Geen van de "
+#~ "instelling zal worden ingesteld."
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "Select your default News Genre"
+#~ msgstr "Selecteer je nieuwscategorie"
+
+#~ msgid "Enter your default News Keywords"
+#~ msgstr "Wat zijn de standaard nieuws zoekwoorden?"
+
+#~ msgid "<p>Configure your Breadcrumbs</p>"
+#~ msgstr "<p>Stel het kruimelpad in</p>"
+
+#~ msgid "Monitor 404 urls in your Dashboard"
+#~ msgstr "Bekijk 404 urls in je dashboard"
+
+#~ msgid "eg: Place Bellevue"
+#~ msgstr "bijv. Place Bellevue"
+
+#~ msgid "eg: Biarritz"
+#~ msgstr "bijv. Biarritz"
+
+#~ msgid "eg: Pyrenees Atlantiques"
+#~ msgstr "bijv. Pyrenees Atlantiques"
+
+#~ msgid "eg: 64200"
+#~ msgstr "bijv. 64200"
+
+#~ msgid "eg: France"
+#~ msgstr "bijv. France"
+
+#~ msgid "eg: 43.4831389"
+#~ msgstr "Bijv. 43.4831389"
+
+#~ msgid "eg: -1.5630987"
+#~ msgstr "Bijv. -1.5630987"
+
+#~ msgid "default:"
+#~ msgstr "standaard:"
+
+#~ msgid "eg: +33559240138"
+#~ msgstr "bijv. +33559240138"
+
+#~ msgid "eg: contact@miremont-biarritz.fr"
+#~ msgstr "bijv. contact@miremont-biarritz.fr"
+
+#~ msgid "eg: $$, €€€, or ££££..."
+#~ msgstr "Bijv. € (goedkoop) - €€ (gemiddeld) - €€€ (duur) "
+
+#~ msgid "eg: \\ "
+#~ msgstr "bijv. \\"
+
+#~ msgid "Enter your Google News Publication Name"
+#~ msgstr "Wat is de naam van je publicatie"
+
+#~ msgid "Enter your Google News Default Keywords"
+#~ msgstr "Vul je Google Nieuws zoekwoorden in"
+
+#~ msgid "Enter your custom url"
+#~ msgstr "Vul de aangepaste url in"
+
+#~ msgid "Enter your email"
+#~ msgstr "Vul je email in"
+
+#~ msgid "This is your htaccess file!"
+#~ msgstr "Dit is je htaccess bestand!"
+
+#~ msgid "Enter your HTML content"
+#~ msgstr "Vul hier de aangepaste html code in"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "404 / 301"
+#~ msgstr "404 / 301"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "404 / 301"
+#~ msgstr "404 / 301"
+
+#~ msgid "%s redirections enabled."
+#~ msgid_plural "%s redirections enabled."
+#~ msgstr[0] "%s re-direct actief."
+#~ msgstr[1] "%s re-directs actief."
+
+#~ msgid "%s redirections disabled."
+#~ msgid_plural "%s redirections disabled."
+#~ msgstr[0] "%s re-direct gedeactiveerd."
+#~ msgstr[1] "%s re-directs gedeactiveerd."
+
+#~ msgid "The headline of the article"
+#~ msgstr "De kop van het artikel"
+
+#~ msgid "Select your image"
+#~ msgstr "Selecteer de afbeelding"
+
+#~ msgid "The title of your lesson, course..."
+#~ msgstr "De titel van de les of cursus..."
+
+#~ msgid "Enter your course/lesson description"
+#~ msgstr "De beschrijving van de cursus of les"
+
+#~ msgid "Name of university, organization..."
+#~ msgstr "De naam van de school of organisatie"
+
+#~ msgid "Enter the URL like http://example.com/"
+#~ msgstr "Wat is de URL? Bijv. http://example.com/"
+
+#~ msgid "The name of your dish"
+#~ msgstr "De naam van het gerecht"
+
+#~ msgid "A short summary describing the dish."
+#~ msgstr "Vertel wat meer over het gerecht"
+
+#~ msgid "Eg: appetizer, entree, or dessert"
+#~ msgstr "Bijv. voorgerecht, nagerecht"
+
+#~ msgid "Eg: 30 min"
+#~ msgstr "Bijv. 30 min"
+
+#~ msgid "Eg: 45 min"
+#~ msgstr "Bijv. 45 min"
+
+#~ msgid "Number of calories"
+#~ msgstr "Aantal calorieën"
+
+#~ msgid "Eg: number of people served, or number of servings"
+#~ msgstr "Bijv. voor 4 personen"
+
+#~ msgid "The title of your video"
+#~ msgstr "De titel van de video"
+
+#~ msgid "The description of the video"
+#~ msgstr "Waar gaat je video over?"
+
+#~ msgid "eg: 120 min"
+#~ msgstr "Bijv. 18 min"
+
+#~ msgid "Eg: http://example.com/video.mp4"
+#~ msgstr "Bijv. http://example.com/video.mp4"
+
+#~ msgid "The name of your event"
+#~ msgstr "De naam van het event"
+
+#~ msgid "Eg: YYYY-MM-DD"
+#~ msgstr "Bijv. YYYY-MM-DD (2018-12-31)"
+
+#~ msgid "Eg: HH:MM"
+#~ msgstr "Bijv. HH:MM (18:31)"
+
+#~ msgid "Eg: Hotel du Palais"
+#~ msgstr "Bijv. Hotel du Palais"
+
+#~ msgid "Eg: http://www.hotel-du-palais.com/"
+#~ msgstr "Bijv. http://www.hotel-du-palais.com/"
+
+#~ msgid "Eg: 1 Avenue de l'Imperatrice, 64200 Biarritz"
+#~ msgstr "Bijv. 1 Avenue de l'Imperatrice, 64200 Biarritz"
+
+#~ msgid "Eg: General admission"
+#~ msgstr "Bijv. Algemene toelating"
+
+#~ msgid "Eg: 10"
+#~ msgstr "Bijv. 10"
+
+#~ msgid "Eg: Lana Del Rey"
+#~ msgstr "Bijv. Lana Del Rey"
+
+#~ msgid "The name of your product"
+#~ msgstr "De naam van je product"
+
+#~ msgid "The description of the product"
+#~ msgstr "Wat is je product precies?"
+
+#~ msgid "Eg: 30"
+#~ msgstr "Bijv. 30"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Broken links"
+#~ msgstr "Gebroken links"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Broken links"
+#~ msgstr "Gebroken links"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Backlinks"
+#~ msgstr "Backlinks"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Backlinks"
+#~ msgstr "Backlinks"
+
+#~ msgid "The PRO version of SEOPress. SEOPress required (free)."
+#~ msgstr "The PRO version of SEOPress. SEOPress required (free)."
+
+#~ msgid "https://www.seopress.org/seopress-pro/"
+#~ msgstr "https://www.seopress.org/seopress-pro/"
+
+#~ msgid "Benjamin DENIS"
+#~ msgstr "Benjamin DENIS"

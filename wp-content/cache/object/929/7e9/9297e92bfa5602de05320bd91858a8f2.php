@@ -1,0 +1,1 @@
+t#/]<?php exit; ?>a:1:{s:7:"content";s:115:"O:8:"stdClass":3:{s:3:"msg";s:33:"Missing key or empty for: license";s:7:"license";s:7:"invalid";s:3:"key";s:0:"";}";}

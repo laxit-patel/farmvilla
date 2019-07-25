@@ -1,0 +1,135 @@
+.editor-styles-wrapper {
+  padding-top: 0;
+  //<editor-fold desc="Title Generic">
+  .editor-post-title__block .editor-post-title__input {
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 42px;
+    color: $color-secondary;
+  }
+
+  .wp-block.editor-post-title__block {
+    max-width: 100%;
+  }
+
+  //</editor-fold>
+
+
+  .hestia-featured-background {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hestia-featured-background.classic-blog-featured {
+    display: none;
+    max-height: 300px;
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    max-width: 100%;
+    margin: 40px auto;
+  }
+
+  .no-content {
+    display: none !important;
+    width: 100%;
+    background: linear-gradient(45deg, #a81d84 0%, #ea396f 100%);
+    min-height: 230px;
+  }
+
+  &.header-no-content {
+    .no-content {
+      display: block !important;
+    }
+
+    .hestia-featured-background.title-container {
+      background: none !important;
+
+      &:before {
+        content: none;
+      }
+    }
+  }
+
+  &.header-classic-blog {
+    &.has-featured-image {
+      .hestia-featured-background.classic-blog-featured {
+        display: block !important;
+      }
+    }
+
+    .hestia-featured-background.title-container {
+      background: none !important;
+
+      &:before {
+        content: none;
+      }
+    }
+  }
+
+  &.header-default {
+    .editor-post-title__block .editor-post-title__input {
+      text-align: center;
+      color: #fff;
+      font-family: $primary-font;
+      font-weight: 700;
+      font-size: 42px;
+      padding: 0;
+    }
+
+    .wp-block.editor-post-title__block {
+      max-width: 83.33333333%;
+      width: 100%;
+    }
+
+    .editor-writing-flow .hestia-featured-background.title-container {
+      width: 100%;
+      padding: 80px 0 110px;
+      background: linear-gradient(45deg, #a81d84 0%, #ea396f 100%) no-repeat center center;
+      background-size: cover;
+      min-height: 300px;
+      text-align: center;
+      align-items: center;
+      display: flex;
+    }
+
+    .editor-post-title {
+      width: 1170px;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+
+  }
+
+  &.header-no-content {
+
+  }
+
+  &.has-featured-image {
+    .hestia-featured-background {
+      background-size: cover;
+      background-position: center;
+      position: relative;
+
+      &:before {
+        background-color: rgba(0, 0, 0, 0.5);
+        content: " ";
+        position: absolute;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+      }
+    }
+
+    &.header-classic-blog .classic-blog-featured {
+      min-height: 500px;
+      max-width: 100%;
+
+      &:before {
+        content: none;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,1 @@
+q#/]<?php exit; ?>a:1:{s:7:"content";a:2:{s:7:"license";s:5:"valid";s:7:"expires";s:10:"01.01.2030";}}

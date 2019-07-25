@@ -1,0 +1,11 @@
+[14-Jul-2019 18:25:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/404.php on line 13
+[14-Jul-2019 18:26:30 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Jul-2019 04:51:31 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/footer.php on line 22
+[18-Jul-2019 18:38:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Jul-2019 18:39:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Jul-2019 18:39:53 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/404.php on line 13
+[21-Jul-2019 21:11:19 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/404.php on line 13
+[21-Jul-2019 21:11:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/404.php on line 13
+[21-Jul-2019 21:11:41 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/404.php on line 13
+[21-Jul-2019 21:11:55 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/404.php on line 13
+[21-Jul-2019 21:12:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/vijaysoni/public_html/farmvilla/wp-content/themes/twentyseventeen/404.php on line 13
